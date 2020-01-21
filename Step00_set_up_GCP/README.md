@@ -20,12 +20,19 @@ To the best of our knowledge, new users to the google cloud platform are granted
 5. Wait for the compute engine to get ready. Once ready, click on "Create" to create a new VM instance.
 <img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="500px" height="200px">
 
-6. Configure the VM according to your needs. 
+6. Configure the VM according to your needs. Most configurations can be modified after the intialization.
 - The region and zone probably doesn't matter.
 - Please select the computational resources (number of CPUs and amount of memory) according to your needs. In this case we selected 4 CPUs and 26 GB memory. You might want larger memory depending on your project.
 - Also note that on the upper right corner there is an estimation of the monthly cost based on your current configuration. That gives you a rough idea on how you want to manage your budget.
 - For students enrolled in the BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo, you are strongly suggested to select the "Debian GNU/Linux 9 (stretch)" for the Boot disk.
 - In the "firewall" section (not included in the following screenshot), you probably want to check "allow HTTP traffic" and "allow HTTPS traffic" in case you need network connection to your VM.
+- You don't need to modify anything not mentioned here.
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
 
-7.
+7. Click "create" on the very bottom of the page once you are confident in the selections.
+- **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
+- **Whenever the VM is in the "start" status you are charged for the computational resource. We have a friend being charged $400+ because she forgot to hit "stop" and left the VM running for several months after a computer science course. So please "stop" it when you are not using it.**
+- In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
+<img src="/Step00_set_up_GCP/Images/start_VM.png" alt="VM_configuration" width="800px" height="300px">
+
+## End of this chapter: step00_set_up_GCP.
