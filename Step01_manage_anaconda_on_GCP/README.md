@@ -65,3 +65,12 @@
   - No.5
 
       > pip install **packagename**
+  
+  - No.6
+    if you need to download a package from github, you can use following command:
+
+      > conda install git pip<br/>
+      > pip install git+<git_url>
+      
+dk
+     
