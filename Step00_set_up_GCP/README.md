@@ -12,7 +12,7 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 Click on the "Go to console" button and let it take you to the GCP console.
 
 1. You should see an interface like this, assuming you have logged in your google account.
-<img src="/Step00_set_up_GCP/Images/GCP_console.png" alt="GCP_console" width="800px" height="300px">
+<img src="/Step00_set_up_GCP/Images/GCP_console.png" alt="GCP_console" width="800px" height="400px">
 
 1. Navigate to and click on the "VM instances" button.
-<img src="/Step00_set_up_GCP/Images/VM_instances_button.png" alt="VM_instances_button" width="400px" height="500px">
+<img src="/Step00_set_up_GCP/Images/VM_instances_button.png" alt="VM_instances_button" width="300px" height="500px">
