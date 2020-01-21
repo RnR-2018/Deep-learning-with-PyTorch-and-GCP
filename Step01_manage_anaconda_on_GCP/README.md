@@ -25,7 +25,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
         export PATH="$PATH:/home/[username]/anaconda3/bin"
 
-Note that "[username]" means whatever username you have 
+    Please replace "[username]" with your own username. For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="300px" height="20px"> the username is "msnanyanzhu". 
 
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
@@ -53,7 +53,7 @@ Note that "[username]" means whatever username you have
 
     **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
-  **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this" according to our experience)
+  **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
   - No.1
 
       > conda install -c anaconda **packagename**
@@ -74,10 +74,12 @@ Note that "[username]" means whatever username you have
 
       > pip install **packagename**
   
-7. if you need to download a package from github, you can use following command:
+    Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling "anaconda install [this wierd package]", and find the offical answer given by anaconda cloud. For instance, if you want to install "dtw", doing so will redirect you to "conda install -c freemapa dtw".
 
+8. To download a package from github, you can use following command:
       > conda install git pip<br/>
       > pip install git+<git_url>
-      
 
-     
+9. Recommended packages for BMEN4460.
+
+## End of this chapter: Step01_manage_anaconda_on_GCP.
