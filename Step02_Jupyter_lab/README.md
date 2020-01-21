@@ -9,7 +9,7 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
 - Make sure that you have installed jupyter lab or jupyter notebook. If not, you can use following command to install one of them.
 ```
-conda install jupyterlab -c anaconda
+conda install jupyter jupyterlab -c anaconda
 or 
-conda install jupyternotebook -c anaconda
+conda install jupyter jupyternotebook -c anaconda
 ```
