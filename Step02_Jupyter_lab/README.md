@@ -1,1 +1,3 @@
-# Step02: Jupyter Lab.
+# Managing Jupyter Lab.
+Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
+
