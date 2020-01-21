@@ -76,7 +76,11 @@ This is written for installing and setting up anaconda on GCP, but can be applie
       > pip install git+<git_url>
 
 9. Recommended packages for BMEN4460.
-
+```
+conda install -c pytorch torchvision pytorch
+conda install -c anaconda matplotlib numpy
+```
 
 
 ## End of this chapter: Step01_manage_anaconda_on_GCP.
+
