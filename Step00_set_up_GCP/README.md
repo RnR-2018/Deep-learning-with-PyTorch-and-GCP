@@ -15,4 +15,4 @@ Click on the "Go to console" button and let it take you to the GCP console.
 ![GCP_console](/Step00_set_up_GCP/Images/GCP_console.png)
 
 1. Navigate to and click on the "VM instances" button.
-![VM_instances_button](/Step00_set_up_GCP/Images/VM_instances_button.png =100x100)
+![VM_instances_button](/Step00_set_up_GCP/Images/VM_instances_button.png){:class="img-responsive"}
