@@ -9,7 +9,9 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 - Make sure that you have installed jupyter lab or jupyter notebook. If not, you can use following command to install one of them.
     ```
     conda install jupyter jupyterlab -c anaconda
-    or 
+    ```
+    or
+    ```
     conda install jupyter jupyternotebook -c anaconda
     ```
 - Install a jupyter notebook kernel in the respective environment
