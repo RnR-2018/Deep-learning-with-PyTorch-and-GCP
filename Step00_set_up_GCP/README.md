@@ -18,7 +18,7 @@ To the best of our knowledge, new users to the google cloud platform are granted
 <img src="/Step00_set_up_GCP/Images/VM_instances_button.png" alt="VM_instances_button" width="300px" height="400px">
 
 5. Wait for the compute engine to get ready. Once ready, click on "Create" to create a new VM instance.
-<img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="600px" height="300px">
+<img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="800px" height="300px">
 
 6. Configure the VM according to your needs. Most configurations can be modified after the intialization.
 - The region and zone probably doesn't matter.
