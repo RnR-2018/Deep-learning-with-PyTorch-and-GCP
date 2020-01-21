@@ -25,7 +25,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
         export PATH="$PATH:/home/[username]/anaconda3/bin"
 
-    Now the command "conda" can be recognized
+    Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
 3. Update Anaconda
 
@@ -35,7 +35,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
         conda create -n [environment name] -c anaconda python=3.6 [package name] [package name]
 
-    **python=3.6** specifies that the python version 3.6 to be installed in this environment. If you want a different version, change it to what you want.
+    **python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
 
     **-c anaconda** specifies the channel from which the package will be downloaded. Personally I recommend **anaconda**. In case the package is not available in anaconda, go search it on the web and find a decent source.
 
@@ -51,7 +51,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
     **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
-  **NOTE**: Hierarchy of package installation methods (ranked according to our experience)
+  **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this" according to our experience)
   - No.1
 
       > conda install -c anaconda **packagename**
@@ -72,11 +72,10 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
       > pip install **packagename**
   
-  - No.6
-    if you need to download a package from github, you can use following command:
+7. if you need to download a package from github, you can use following command:
 
       > conda install git pip<br/>
       > pip install git+<git_url>
       
-dk
+
      
