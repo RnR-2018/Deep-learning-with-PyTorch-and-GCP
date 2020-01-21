@@ -25,7 +25,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
         export PATH="$PATH:/home/[username]/anaconda3/bin"
 
-    Please replace "[username]" with your own username. For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="300px" height="20px"> the username is "msnanyanzhu". 
+    Please replace "[username]" with your own username. For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="200px" height="20px"> the username is "msnanyanzhu". 
 
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
