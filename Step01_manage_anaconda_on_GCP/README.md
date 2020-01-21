@@ -1,10 +1,16 @@
 # Manage Anaconda on Google Cloud Platform.
+Nanyan "Rosalie" Zhu and Chen "Raphael" Liu.
+
+## Overview
+This is written for installing and setting up anaconda on GCP, but can be applied on other devices as well. The following instruction assumes a Linux operating system.
+
+## Step-by-step instructions
 1. Download and install Anaconda 3.
     1. Find a suitable Anaconda 3 at the Anaconda installer archive
 
         [Anaconda installer archive](https://repo.continuum.io/archive/)
 
-        In this case, I chose Anaconda3-2019.10-Linux-x86_64.sh
+        In this case, we chose Anaconda3-2019.10-Linux-x86_64.sh
 
     2. Download the Anaconda Archive package. In the ssh terminal, enter:
 
