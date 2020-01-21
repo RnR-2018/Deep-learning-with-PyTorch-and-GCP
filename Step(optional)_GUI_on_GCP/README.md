@@ -1,1 +1,1 @@
-# Optional Step Graphical User Interface on GCP
+# Optional Step: Graphical User Interface on GCP
