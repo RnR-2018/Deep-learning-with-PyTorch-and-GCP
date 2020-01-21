@@ -33,7 +33,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
 4. Create Virtual Environment [environment name].
 
-        conda create -n [environment name] -c anaconda python=3.6 [package name] [package name]
+        conda create -n [environment name] -c anaconda python=3.7 [package name] [package name]
 
     **python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
 
