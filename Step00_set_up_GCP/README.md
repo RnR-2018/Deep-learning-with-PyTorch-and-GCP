@@ -13,10 +13,10 @@ To the best of our knowledge, new users to the google cloud platform are granted
 Click on the "Go to console" button and let it take you to the GCP console.
 
 3. You should see an interface like this, assuming you have logged in your google account.
-<img src="/Step00_set_up_GCP/Images/GCP_console.png" alt="GCP_console" width="800px" height="400px">
+<img src="/Step00_set_up_GCP/Images/GCP_console.png" alt="GCP_console" width="600px" height="300px">
 
 4. Navigate to and click on the "VM instances" button.
 <img src="/Step00_set_up_GCP/Images/VM_instances_button.png" alt="VM_instances_button" width="300px" height="400px">
 
 5. Wait for the compute engine to get ready.
-<img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="600px" height="300px">
+<img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="500px" height="200px">
