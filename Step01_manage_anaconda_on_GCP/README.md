@@ -20,18 +20,20 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
             sudo apt-get install bzip2
             bash Anaconda3-2019.10-Linux-x86_64.sh
-  
-2. Add the path of anaconda to the system PATH
+
+2. Add the path of anaconda to the system PATH.
 
         export PATH="$PATH:/home/[username]/anaconda3/bin"
 
-    Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
+Note that "[username]" means whatever username you have 
 
-3. Update Anaconda
+3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
+
+4. Update Anaconda
 
         conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
 
-4. Create Virtual Environment [environment name].
+5. Create Virtual Environment [environment name].
 
         conda create -n [environment name] -c anaconda python=3.7 [package name] [package name]
 
@@ -41,11 +43,11 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
     **package name** specifies the packages to be installed in this environment. It makes no difference whether to specify the package names to be installed here or in Step 7.
 
-5. Activate Virtual Environment
+6. Activate Virtual Environment
 
         source activate [environment name]
 
-6. Install Packages
+7. Install Packages
 
         conda install -c anaconda [package name] [package name] ...
 
