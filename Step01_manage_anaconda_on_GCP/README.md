@@ -78,7 +78,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 9. Recommended packages for BMEN4460.
 ```
 conda install -c pytorch torchvision pytorch
-conda install -c anaconda matplotlib numpy jupyterlab
+conda install -c anaconda matplotlib numpy jupyterlab jupyter
 ```
 
 
