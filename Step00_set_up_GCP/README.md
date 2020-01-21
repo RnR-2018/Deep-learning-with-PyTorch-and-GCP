@@ -35,7 +35,7 @@ To the best of our knowledge, new users to the google cloud platform are granted
 - In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
 <img src="/Step00_set_up_GCP/Images/start_VM.png" alt="VM_configuration" width="800px" height="300px">
 
-8. After you "start" the instance, you may open the ssh terminal by clicking the following button.
+8. After you "start" the instance, you may open the ssh terminal by clicking the following button. It usually takes half a minute or so before you are brought to the next window.
 <img src="/Step00_set_up_GCP/Images/VM_SSH_open.png" alt="VM_configuration" width="800px" height="200px">
 
 9. The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
