@@ -30,20 +30,16 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     ```
     and add the following line to your system file.
     ```
-    export PATH="$PATH:/[your disk mount point]/anaconda3/bin"
+    export PATH="$PATH:/[where you installed anaconda]/anaconda3/bin"
     ```
     
-    Please replace "[your disk mount point]" with your own additional disk. If you installed anaconda in your default folder, you should instead use the following command.
-    ```
-    export PATH="$PATH:/home/[username]/anaconda3/bin"
-    ```
-
+    Please replace "[where you installed anaconda]" with your own additional disk, aka., "[your disk mount point]" if you did our recommended installation. If you installed anaconda in your default folder, you should instead replace "[where you installed anaconda]" with "/home/[username]".
+    
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
 4. Update Anaconda
 
-        conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
-    For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="200px" height="20px"> the username is "msnanyanzhu". 
+        conda update --prefix [your disk mount point]/anaconda3 -c anaconda anaconda
 
 5. Create Virtual Environment [environment name].
 
