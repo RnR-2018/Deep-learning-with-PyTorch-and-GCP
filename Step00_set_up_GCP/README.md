@@ -26,11 +26,10 @@ To the best of our knowledge, new users to the google cloud platform are granted
 - Also note that on the upper right corner there is an estimation of the monthly cost based on your current configuration. That gives you a rough idea on how you want to manage your budget.
 - For students enrolled in the BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo, you are strongly suggested to select the "Debian GNU/Linux 9 (stretch)" for the Boot disk.
 - In the "firewall" section (not included in the following screenshot), you probably want to check "allow HTTP traffic" and "allow HTTPS traffic" in case you need network connection to your VM.
-- You don't need to modify anything not mentioned here.
+- At last, you may need a larger disk than the default setup to store more data. (In fact, the default setup cannot even contain anaconda that we will download soon.) In the "boot disk" section, click on "change", and make the disk as large as you wish. As our habit, we typically use something like 100 GB.
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
 
-7. You may need to create an additional big disk to store you data in it. Click "add new disk" botton on the bottom left and create your new disk.
-<img src="/Step00_set_up_GCP/Images/add_new_disk.png" alt="add_new_disk" width="400px" height="400px">
+<img src="/Step00_set_up_GCP/Images/make_disk_larger.png" alt="add_new_disk" width="400px" height="400px">
 
 8. Click "create" on the very bottom of the page once you are confident in the selections.
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
