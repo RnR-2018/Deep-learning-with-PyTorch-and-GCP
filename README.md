@@ -6,7 +6,7 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University.</br>
 
 This repository is still in progress. We will add one new post per week. Please help us improve this repository by leaving your comments or problems you encountered in the "Issues" section.
-<img src="/Images/issues_button.png" alt="GCP_console" width="600px" height="120px">
+<img src="/Images/issues_button.png" alt="GCP_console" width="300px" height="60px">
 
 ## Sections
 - Step 00: [Set up google cloud platform (GCP)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
