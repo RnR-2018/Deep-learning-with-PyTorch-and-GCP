@@ -20,18 +20,30 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
             sudo apt-get install bzip2
             bash Anaconda3-2019.10-Linux-x86_64.sh
+    4. Once you run the installation command, there will be text instructions that guide you through the installation.
+    * You can choose to install anaconda at any place you want. Typically we recommend installing it under your additional disk "[you disk mount point]/anaconda3", since the disk will have a much larger memory. You may also choose the default "/home/[username]/anaconda3" path, but you may face memory issues in the future.
+    * The only case you want to say "no" during installation is when it asks whether or not you want to install some visual studio stuff as well. You probably don't need that.
 
 2. Add the path of anaconda to the system PATH.
-
-        export PATH="$PATH:/home/[username]/anaconda3/bin"
-
-    Please replace "[username]" with your own username. For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="200px" height="20px"> the username is "msnanyanzhu". 
+    ```
+    sudo nano ~/.bashrc
+    ```
+    and add the following line to your system file.
+    ```
+    export PATH="$PATH:/[your disk mount point]/anaconda3/bin"
+    ```
+    
+    Please replace "[your disk mount point]" with your own additional disk. If you installed anaconda in your default folder, you should instead use the following command.
+    ```
+    export PATH="$PATH:/home/[username]/anaconda3/bin"
+    ```
 
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
 4. Update Anaconda
 
         conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
+    For instance, in this case <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="username" width="200px" height="20px"> the username is "msnanyanzhu". 
 
 5. Create Virtual Environment [environment name].
 
