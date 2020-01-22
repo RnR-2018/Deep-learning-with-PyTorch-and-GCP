@@ -21,7 +21,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
             sudo apt-get install bzip2
             bash Anaconda3-2019.10-Linux-x86_64.sh
     4. Once you run the installation command, there will be text instructions that guide you through the installation.
-    * You can choose to install anaconda at any place you want. Typically we recommend installing it under your additional disk "[you disk mount point]/anaconda3", since the disk will have a much larger memory. You may also choose the default "/home/[username]/anaconda3" path, but you may face memory issues in the future.
+    * You can choose to install anaconda at any place you want. Typically we recommend installing it under your additional disk **"[you disk mount point]/anaconda3"**, since the disk will have a much larger memory. You may also choose the default **"/home/[username]/anaconda3"** path, but you may face memory issues in the future.
     * The only case you want to say "no" during installation is when it asks whether or not you want to install some visual studio stuff as well. You probably don't need that.
 
 2. Add the path of anaconda to the system PATH.
@@ -33,7 +33,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     export PATH="$PATH:/[where you installed anaconda]/anaconda3/bin"
     ```
     
-    Please replace "[where you installed anaconda]" with your own additional disk, aka., "[your disk mount point]" if you did our recommended installation. If you installed anaconda in your default folder, you should instead replace "[where you installed anaconda]" with "/home/[username]".
+    Please replace **"[where you installed anaconda]"** with your own additional disk, aka., **"[your disk mount point]"** if you did our recommended installation. If you installed anaconda in your default folder, you should instead replace **"[where you installed anaconda]"** with **"/home/[username]"**.
     
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
