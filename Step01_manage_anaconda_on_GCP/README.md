@@ -39,7 +39,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
 4. Update Anaconda
 
-        conda update --prefix [your disk mount point]/anaconda3 -c anaconda anaconda
+        conda update --prefix [where you installed anaconda]/anaconda3 -c anaconda anaconda
 
 5. Create Virtual Environment [environment name].
 
