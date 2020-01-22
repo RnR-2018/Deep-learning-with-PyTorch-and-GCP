@@ -53,7 +53,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
 6. Activate Virtual Environment
 
-        source activate [environment name]
+        conda activate [environment name]
 
 7. Install Packages
 
