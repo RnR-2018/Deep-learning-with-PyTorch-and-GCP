@@ -3,6 +3,7 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
 ## Overview
 This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University.
+This repository is still in progress. We will add one new post per week. Please help us improve this repository by leaving your comments or problems you encountered in issues.
 
 ## Sections
 - Step 00: [Set up google cloud platform (GCP)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
@@ -12,3 +13,5 @@ This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine
 
 ## Additional resources.
 1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+
+
