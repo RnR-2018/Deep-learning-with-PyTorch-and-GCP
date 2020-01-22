@@ -67,7 +67,6 @@ Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
         
         
 ## For Mac
-## Connecting to the GUI
 
 1. Go to Google Cloud Platform. Start the VM instance.
 2. Open **Terminal #1**. This terminal will be your **GCP instance**.
@@ -105,7 +104,7 @@ Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
         
         
         
-- **if you got grey desktop after login use vnc client, try this :**
+## **if you got grey desktop after login use vnc client, try this :**
   ```
   nano ~/.vnc/xstartup
   ```
