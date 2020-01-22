@@ -12,19 +12,11 @@
 
         sudo apt-get install gnome-shell gnome task-gnome-desktop autocutsel tightvncserver gnome-core gnome-panel
 
-4. Run the Vncserver
-
-        vncserver -geometry 1920x1080 :1
-
-    The "**:1"** specifies the port. It is a simplified term for ":5901".
-
-    Design a password for viewing the VNC
-
-5. Use the path displayed to open the xstartup file
+4. Use the path displayed to open the xstartup file
 
         sudo nano /home/[username]/.vnc/xstartup
 
-6. Replace the code in the xstartup file with the following:
+5. Replace the code in the xstartup file with the following:
 
         #!/bin/sh
         autocutsel -fork
@@ -35,6 +27,15 @@
         export XDG_MENU_PREFIX="gnome-flashback-"
         unset DBUS_SESSION_BUS_ADDRESS
         gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --debug &
+
+6. Run the Vncserver
+
+        vncserver -geometry 1920x1080 :1
+
+    The "**:1"** specifies the port. It is a simplified term for ":5901".
+
+    Design a password for viewing the VNC
+
 
 7. **On the PC (NOT THE GCP)** create a SSH tunnel between the PC and GCP.
 
