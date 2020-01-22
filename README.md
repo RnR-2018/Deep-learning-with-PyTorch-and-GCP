@@ -2,7 +2,7 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
 ## Overview
-This tutorial is originally designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester.
+This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University.
 
 ## Sections
 - Step 00: [Set up google cloud platform (GCP)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
