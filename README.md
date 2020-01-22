@@ -1,5 +1,5 @@
 ---
-layout: architect
+theme: jekyll-theme-architect
 ---
 
 # Deep Learning with PyTorch and Google Cloud Platforms
