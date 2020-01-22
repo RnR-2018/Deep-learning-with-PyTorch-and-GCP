@@ -51,10 +51,10 @@ Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
     **Instance Name** Whatever name you want to give to the current connection instance.
     
     **Project ID** Click on "My First Project" and check the ID.
-    <>
+    <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="300px">
     
     **Zone ID** The thing under the "Zone" tag.
-    <>
+    <img src="/Step03_GUI_setup (optional)/images/find_zone.png" alt="GCP_console" width="1000px" height="100px">
 
 9. For Windows PC, you would need to log in your Google Cloud SDK first.
 
