@@ -29,16 +29,23 @@ To the best of our knowledge, new users to the google cloud platform are granted
 - You don't need to modify anything not mentioned here.
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
 
-7. Click "create" on the very bottom of the page once you are confident in the selections.
+7. You may need to create an additional big disk to store you data in it. Click "add new disk" botton on the bottom left and create your new disk.
+<img src="/Step00_set_up_GCP/Images/add_new_disk.png" alt="add_new_disk" width="800px" height="600px">
+
+8. Click "create" on the very bottom of the page once you are confident in the selections.
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
 - **Whenever the VM is in the "start" status you are charged for the computational resource. We have a friend being charged $400+ because she forgot to hit "stop" and left the VM running for several months after a computer science course. So please "stop" it when you are not using it.**
 - In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
 <img src="/Step00_set_up_GCP/Images/start_VM.png" alt="VM_configuration" width="800px" height="300px">
 
-8. After you "start" the instance, you may open the ssh terminal by clicking the following button. It usually takes half a minute or so before you are brought to the next window.
+9. After you "start" the instance, you may open the ssh terminal by clicking the following button. It usually takes half a minute or so before you are brought to the next window.
 <img src="/Step00_set_up_GCP/Images/VM_SSH_open.png" alt="VM_configuration" width="800px" height="200px">
 
-9. The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
+10. The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
 <img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png" alt="VM_configuration" width="800px" height="200px">
+
+11. Finally, you need to mount the new big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/)
+
+
 
 ## End of this chapter: step00_set_up_GCP.
