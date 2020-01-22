@@ -61,29 +61,32 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
     **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
-  **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
-  - No.1
-      > conda install -c anaconda **packagename**
+      **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
+      - No.1
+          > conda install -c anaconda **packagename**
 
-  - No.2
-      > conda install -c conda-forge **packagename**
+      - No.2
+          > conda install -c conda-forge **packagename**
 
-  - No.3
-      > conda install **packagename**
+      - No.3
+          > conda install **packagename**
 
-  - No.4
-      > python -m pip install **packagename**
+      - No.4
+          > python -m pip install **packagename**
 
-  - No.5
-      > pip install **packagename**
-  
-    Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling "anaconda install [this wierd package]", and find the offical answer given by anaconda cloud. For instance, if you want to install "dtw", doing so will redirect you to "conda install -c freemapa dtw".
+      - No.5
+          > pip install **packagename**
 
-8. To download a package from github, you can use following command:
+8. Install Packages (continued)
+    Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this wierd package]"**, and find the offical answer given by anaconda cloud.
+    
+    For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
+
+9. To download a package from github, you can use following command:
       > conda install git pip<br/>
       > pip install git+<git_url>
 
-9. Recommended packages for BMEN4460.
+10. Recommended packages for BMEN4460.
 ```
 conda install -c pytorch torchvision pytorch
 conda install -c anaconda matplotlib numpy jupyterlab jupyter
