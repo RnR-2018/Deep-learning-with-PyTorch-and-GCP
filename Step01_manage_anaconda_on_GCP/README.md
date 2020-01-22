@@ -24,7 +24,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     * You can choose to install anaconda at any place you want. Typically we recommend installing it under your additional disk **"[you disk mount point]/anaconda3"**, since the disk will have a much larger memory. You may also choose the default **"/home/[username]/anaconda3"** path, but you may face memory issues in the future.
     * The only case you want to say "no" during installation is when it asks whether or not you want to install some visual studio stuff as well. You probably don't need that.
 
-2. Add the path of anaconda to the system PATH.
+2. (Optional) Add the path of anaconda to the system PATH. This is not necessary if you asked the anaconda installation kit to set the path for you.
     ```
     sudo nano ~/.bashrc
     ```
