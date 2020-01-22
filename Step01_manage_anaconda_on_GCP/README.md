@@ -78,6 +78,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
           > pip install **packagename**
 
 8. Install Packages (continued)
+
     Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this wierd package]"**, and find the offical answer given by anaconda cloud.
     
     For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
