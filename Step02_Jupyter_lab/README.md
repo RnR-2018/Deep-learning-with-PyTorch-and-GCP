@@ -1,4 +1,4 @@
-# Managing Jupyter Lab.
+# Managing Jupyter Kernel.
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
 - Activate the environment you need to work with
