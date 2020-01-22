@@ -1,6 +1,3 @@
----
-theme: jekyll-theme-architect
----
 
 # Deep Learning with PyTorch and Google Cloud Platforms
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
