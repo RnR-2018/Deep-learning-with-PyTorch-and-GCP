@@ -30,7 +30,7 @@ To the best of our knowledge, new users to the google cloud platform are granted
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
 
 7. You may need to create an additional big disk to store you data in it. Click "add new disk" botton on the bottom left and create your new disk.
-<img src="/Step00_set_up_GCP/Images/add_new_disk.png" alt="add_new_disk" width="800px" height="600px">
+<img src="/Step00_set_up_GCP/Images/add_new_disk.png" alt="add_new_disk" width="400px" height="450px">
 
 8. Click "create" on the very bottom of the page once you are confident in the selections.
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
