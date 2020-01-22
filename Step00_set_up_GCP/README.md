@@ -45,7 +45,7 @@ To the best of our knowledge, new users to the google cloud platform are granted
 <img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png" alt="VM_configuration" width="800px" height="200px">
 
 11. Finally, you need to mount the new big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/).</br>
-**NOTE: ** In our case, we use /demo-mount as our mount point.
+**NOTE:**  In our case, we use /demo-mount as our mount point.
 
 
 
