@@ -29,7 +29,7 @@ To the best of our knowledge, new users to the google cloud platform are granted
 - At last, you may need a larger disk than the default setup to store more data. (In fact, the default setup cannot even contain anaconda that we will download soon.) In the "boot disk" section, click on "change", and make the disk as large as you wish. As our habit, we typically use something like 100 GB.
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
 
-<img src="/Step00_set_up_GCP/Images/make_disk_larger.png" alt="add_new_disk" width="400px" height="400px">
+<img src="/Step00_set_up_GCP/Images/make_disk_larger.png" alt="add_new_disk" width="400px" height="300px">
 
 8. Click "create" on the very bottom of the page once you are confident in the selections.
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
