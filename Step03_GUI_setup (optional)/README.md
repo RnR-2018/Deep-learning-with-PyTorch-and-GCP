@@ -57,6 +57,8 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     
     <img src="/Step03_GUI_setup (optional)/images/xstartup_after_modification.png" alt="add_new_disk" width="600px" height="200px">
 
+    Remember to use "Ctrl+X" followed by typing "Y" followed by pressing "Return/Enter" to save your changes.
+
     **Now you are done with the modifications on the side of the GCP VM (the Server).**
 
 
@@ -74,27 +76,36 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 
     A pop-up window on your browser will ask you to log in with your google account.
     
-3. Create a SSH tunnel between your local device and GCP.
+3. Initialize the google cloud configuration.
     ```
-    gcloud compute ssh [Instance Name] --project [Project ID] --zone [Zone ID] --ssh-flag "-L 5901:localhost:5901"
+    gcloud init
     ```
 
-    example:
-    ```
-    gcloud compute ssh bmen4460-hahaha --project 
-    ```
-    
-    **Instance Name** Whatever name you want to give to the current connection instance.
-    
-    **Project ID** Click on "My First Project" and check the ID. In 
-    <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="300px">
-    
-    **Zone ID** The thing under the "Zone" tag.
-    <img src="/Step03_GUI_setup (optional)/images/find_zone.png" alt="GCP_console" width="1000px" height="100px">
+   Follow the instructions and build your configurations. Faithfully enter the account email, project ID, etc.
 
-9. For Windows PC, you would need to log in your Google Cloud SDK first.
+4. Create a SSH tunnel between your local device and GCP.
+    ```
+    gcloud compute ssh [Instance Name] --project [Project ID] --zone [Zone ID] --ssh-flag "-L [port number]"
+    ```
 
-        gcloud auth login [Account]
+    Example:
+    ```
+    gcloud compute ssh bmen4460 --project gentle-nuance-238411 --zone northamerica-northeast1-a --ssh-flag "-L 5901:localhost:5901"
+    ```
+    
+    *Note: If you have trouble with this, you may try removing the --zone entrance while keeping the rest untouched. That may work.*
+    
+    **Instance Name** The virtual machine instance name. (In our case it is "bmen4460")
+    <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
+    
+    **Project ID** Click on "My First Project" and check the ID. (In our case it is "gentle-nuance-238411")
+    <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="200px">
+    
+    **Zone ID** The thing under the "Zone" tag. (In our case it is "us-central1-a")
+    <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
+    
+    **port number** Remember to change the two "5901" to whatever VNC port number you originally set up in part 1. If you used port 5902, for example, you should type **--ssh-flag "-L 5902:localhost:5902".** Also, please use the full number, instead of the abbreviation (i.e., use 5932 instead of 32, etc.).
+
 
 10. Open VNCViewer and use the server "localhost:5901".
 11. Kill the VNC server when finished
