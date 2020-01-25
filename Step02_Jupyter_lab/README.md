@@ -1,4 +1,4 @@
-# Managing Jupyter Kernel.
+# Jupyter Lab on GCP.
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
 ## Overview
