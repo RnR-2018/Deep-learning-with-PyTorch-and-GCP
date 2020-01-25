@@ -127,6 +127,7 @@ http://35.203.66.22:4460/?token=a4a65a7cd90703e893dda91719d614ef68b2a071fe88d1af
 
 Copy and paste that url to a browser on your own PC/laptop/etc. That will open up a jupyter lab page on your own device.
     
-<img src="/Step02_Jupyter_lab/Images/opened_jupyter_lab.png" alt="add_new_disk" width="800px" height="400px">
+<img src="/Step02_Jupyter_lab/Images/opened_jupyter_lab.png" alt="add_new_disk" width="600px" height="400px">
+
 
 ## End of this chapter: Step02_Jupyter_lab.
