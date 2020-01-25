@@ -54,7 +54,7 @@ At this stage, we want you to keep track of two things.
     ```
     After doing this, the "(base)" in the command line will become "([myenv])".
     
-<img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
+    <img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
 
 3. Make sure that you have installed jupyter lab or jupyter notebook.
     *If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
@@ -76,7 +76,40 @@ At this stage, we want you to keep track of two things.
     
     Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
 
-5. **(Important)**
+5. **(Important) Create and modify a jupyter configuration file.**
+    
+    **1) Create the config.**
+    ```
+    jupyter lab --generate-config
+    ```
+    or 
+    ```
+    jupyter notebook --generate-config
+    ```
+    Whichever you choose to run, the same configuration file (named after jupyter notebook) will be created.
+
+    <img src="/Step02_Jupyter_lab/Images/create_jupyter_config.png" alt="add_new_disk" width="600px" height="50px">
+
+    **2) Modify the config.**
+    The next step is comparatively challenging, especially if you have no prior experience with text editors. You will need to access the config file using either the "nano" editor (as what we will use for demonstration) or any other editor you prefer.
+    
+    ```
+    nano /home/msnanyanzhu/.jupyter/jupyter_notebook_config.py
+    ```
+    and this will open the config file with the "nano" editor interface.
+    
+    
+    You need to add the following lines to pretty much anywhere that is not commented out within the config file.
+    ```
+    c = get_config()
+    c.NotebookApp.ip = '*'
+    c.NotebookApp.open_browser = False
+    c.NotebookApp.port = 4460
+    ```
+    Remember to replace the port "4460" with whatever you set up as your port number that allow HTTP/HTTPS traffic.
+    
+    
+    
 
 6. The next step is open jupyter lab
     ```
