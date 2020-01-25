@@ -1,8 +1,12 @@
-# Optional Step: Graphical User Interface on GCP
+# Optional Step: Graphical User Interface (GUI) on GCP
 Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
 
-## Step-by-step instructions.
-### On the GCP VM.
+## Overview.
+This step is absolutely unessential for this course. The purpose of this step is just to build a graphical user interface on GCP, such that you can browse the files and folders, double click to open them, etc. It does not provide additional functionality beyond using the SSH terminal commands, but it might be a little more welcoming for people who are uncomfortable with text-based user interfaces.
+
+There might be other ways to set up a graphical user interface on GCP, but what we introduce here is a comparatively straightforward method to implement. Conceptually you will configure the GCP VM instance as a server, an entity that can serve as a host and welcome connections, and on the other hand you will use your own device (desktop, laptop, etc.) as a client to connect to the server. We will introduce VNC Server-Client pair for this purpose.
+
+## Part 1. On the GCP VM (the Server).
 1. On the Google Cloud Platform, navigate to the Virtual Machine section and activate the instance you want to work in. Open the SSH terminal.
 
 2. Upgrade apt-get
@@ -14,20 +18,24 @@ Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
 
 3. Install the following packages
 
-        sudo apt-get install gnome-shell gnome task-gnome-desktop autocutsel tightvncserver gnome-core gnome-panel
-        
+        sudo apt-get install gnome-shell gnome task-gnome-desktop autocutsel tightvncserver gnome-core gnome-panel metacity nautilus
 
-4. Run the Vncserver
+    You will probably encounter a pop-up window. Don't panic, it's just asking you to select the language. The installation may take quite a while.
+
+4. Run the VNCserver
 
         vncserver -geometry 1920x1080 :1
 
-    The "**:1"** specifies the port. It is a simplified term for ":5901".
+    The "**:1"** specifies the port for the VNC server. It is a simplified term for ":5901". In general, the port number is omitted by 5900, i.e., ":5902" is equivalent to ":2", ":5923" is equivalent to ":23", etc.
 
-    Design a password for viewing the VNC
+    When you run the VNCserver for the first time, you need to design a password as instructed. You will need the password to connect to GCP from your local device.
     
-5. Use the path displayed to open the xstartup file
+    <img src="/Step03_GUI_setup (optional)/images/vnc_log_file.png" alt="add_new_disk" width="600px" height="200px">
+
+5. Use the path displayed to open the xstartup file. You can choose to use any other text editor besides "nano".
 
         sudo nano /home/[username]/.vnc/xstartup
+
 
 6. Replace the code in the xstartup file with the following:
 
@@ -41,18 +49,44 @@ Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
         unset DBUS_SESSION_BUS_ADDRESS
         gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --debug &
 
-### On your local PC (not the GCP VM!)
-7. **On the PC (NOT THE GCP)** download google cloud software development kit (sdk).
+    Before modification:
+    
+    <img src="/Step03_GUI_setup (optional)/images/xstartup_before_modification.png" alt="add_new_disk" width="600px" height="200px">
+    
+    After modification:
+    
+    <img src="/Step03_GUI_setup (optional)/images/xstartup_after_modification.png" alt="add_new_disk" width="600px" height="200px">
+
+    **Now you are done with the modifications on the side of the GCP VM (the Server).**
+
+
+## Part 2. On your local device (the Client).
+*We are only roughly familiar with windows and Mac, and you may need to find your own way out there if you are using other operating systems on your own device.*
+
+### If your device uses a Windows OS.
+1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
-8. Create a SSH tunnel between your PC and GCP.
+2. Log in google cloud sdk
+    ```
+    gcloud auth login
+    ```
 
-        gcloud compute ssh [Instance Name] --project [Project ID]
-        --zone [Zone ID] --ssh-flag "-L 5901:localhost:5901"
+    A pop-up window on your browser will ask you to log in with your google account.
+    
+3. Create a SSH tunnel between your local device and GCP.
+    ```
+    gcloud compute ssh [Instance Name] --project [Project ID] --zone [Zone ID] --ssh-flag "-L 5901:localhost:5901"
+    ```
 
+    example:
+    ```
+    gcloud compute ssh bmen4460-hahaha --project 
+    ```
+    
     **Instance Name** Whatever name you want to give to the current connection instance.
     
-    **Project ID** Click on "My First Project" and check the ID.
+    **Project ID** Click on "My First Project" and check the ID. In 
     <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="300px">
     
     **Zone ID** The thing under the "Zone" tag.
