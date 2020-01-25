@@ -16,7 +16,7 @@ This chapter has two major sections.
 2. Change the IP address from "Ephemeral" to "Static". Give it a name you like.
 <img src="/Step02_Jupyter_lab/Images/configure_static_address.png" alt="add_new_disk" width="300px" height="100px"> <img src="/Step02_Jupyter_lab/Images/configure_static_address_continued.png" alt="add_new_disk" width="300px" height="150px">
 
-### Step 2. Update firewall rules (Important).
+### Step 2. (Important) Update firewall rules.
 1. On GCP, go to "VPC network" > "Firewall rules".
 
 <img src="/Step02_Jupyter_lab/Images/firewall_rules.png" alt="add_new_disk" width="500px" height="150px">
@@ -40,13 +40,24 @@ At this stage, we want you to keep track of two things.
 <img src="/Step02_Jupyter_lab/Images/your_port_allowed.png" alt="add_new_disk" width="600px" height="50px">
 
 ## Section 2. Use jupyter lab on GCP.
+### Step 1. Initiate jupyter lab.
 
-- Activate the environment you need to work with
+1. Go to GCP, start your VM instance, open SSH terminal. If unfamiliar, refer to chapter "Step00_set_up_GCP".
+
+2. Activate the environment you need to work with
     ```
     conda activate [myenv]
     ```
+    example:
+    ```
+    conda activate BMEN4460
+    ```
+    After doing this, the "(base)" in the command line will become "([myenv])".
     
-- Make sure that you have installed jupyter lab or jupyter notebook. If not, you can use following command to install one of them.
+<img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
+
+3. Make sure that you have installed jupyter lab or jupyter notebook.
+    *If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
     ```
     conda install jupyter jupyterlab -c anaconda
     ```
@@ -54,13 +65,20 @@ At this stage, we want you to keep track of two things.
     ```
     conda install jupyter jupyternotebook -c anaconda
     ```
-- Install a jupyter notebook kernel in the respective environment
+4. Install a jupyter notebook kernel in the respective environment.
     ```
     python -m ipykernel install --user --name [myenv] --display-name "[Python (myenv)]"
     ```
-- Now the jupyter kernel is distinctively pointing to the python in the corresponding environment
+    example:
+    ```
+    python -m ipykernel install --user --name BMEN4460 --display-name "Python BMEN4460"
+    ```    
+    
+    Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
 
-- The next step is open jupyter lab
+5. **(Important)**
+
+6. The next step is open jupyter lab
     ```
     jupyter lab
     ```
