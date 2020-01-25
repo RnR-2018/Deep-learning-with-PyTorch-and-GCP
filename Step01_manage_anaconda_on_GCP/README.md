@@ -47,7 +47,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
        
     example:
     ```
-        conda create -n BMEN4460 -c anaconda python=3.7
+      conda create -n BMEN4460 -c anaconda python=3.7
     ```
 
     **python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
