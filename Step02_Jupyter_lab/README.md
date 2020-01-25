@@ -113,16 +113,16 @@ The next step is open jupyter lab. Remember you should have your environment act
     ```
     jupyter lab
     ```
-    The following lines shall show up in the SSH terminal.
+The following lines shall show up in the SSH terminal.
     
-    <img src="/Step02_Jupyter_lab/Images/open_jupyter_lab.png" alt="add_new_disk" width="800px" height="200px">
+<img src="/Step02_Jupyter_lab/Images/open_jupyter_lab.png" alt="add_new_disk" width="800px" height="200px">
     
-    Do you see that website url highlighted in red? You should notice the number following the colon is the port number allowing traffic that you set up earlier in this tutorial. Now copy the entire url, but replace the string (in our case "bmen4460") ahead of the colon with your external IP address (in our case 35.203.66.22). What you will get is something like:
+Do you see that website url highlighted in red? You should notice the number following the colon is the port number allowing traffic that you set up earlier in this tutorial. Now copy the entire url, but replace the string (in our case "bmen4460") ahead of the colon with your external IP address (in our case 35.203.66.22). What you will get is something like:
     ```
     http://35.203.66.22:4460/?token=a4a65a7cd90703e893dda91719d614ef68b2a071fe88d1af
     ```
-    Copy and paste that url to a browser on your own PC/laptop/etc. That will open up a jupyter lab page on your own device.
+Copy and paste that url to a browser on your own PC/laptop/etc. That will open up a jupyter lab page on your own device.
     
-    <img src="/Step02_Jupyter_lab/Images/opened_jupyter_lab.png" alt="add_new_disk" width="800px" height="400px">
+<img src="/Step02_Jupyter_lab/Images/opened_jupyter_lab.png" alt="add_new_disk" width="800px" height="400px">
 
 ## End of this chapter: Step02_Jupyter_lab.
