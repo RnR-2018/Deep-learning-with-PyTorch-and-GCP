@@ -129,7 +129,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     gcloud compute ssh msnanyanzhu@bmen4460 --project gentle-nuance-238411 --zone northamerica-northeast1-a --ssh-flag "-L 5901:localhost:5901"
     ```
     
-    *Note: If you have trouble with this, you may try removing the --zone entrance while keeping the rest untouched. That may work.*
+    *Note: In fact, if you use gcloud init and enter the fields correctly, the entries --project and --zone are unnecessary.*
     
     - **Instance Name** The virtual machine instance name. (In our case it is "bmen4460")
     <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
@@ -188,7 +188,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     gcloud compute ssh msnanyanzhu@bmen4460 --project gentle-nuance-238411 --zone northamerica-northeast1-a --ssh-flag "-L 5901:localhost:5901"
     ```
 
-    *Note: If you have trouble with this, you may try removing the --zone entrance while keeping the rest untouched. That may work.*
+    *Note: In fact, if you use gcloud init and enter the fields correctly, the entries --project and --zone are unnecessary.*
     
     - **Instance Name** The virtual machine instance name. (In our case it is "bmen4460")
     <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
