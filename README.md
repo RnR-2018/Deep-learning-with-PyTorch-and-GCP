@@ -1,6 +1,6 @@
 
 # Deep Learning with PyTorch and Google Cloud Platforms
-Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
+Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
 ## Overview
 This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University.</br>
