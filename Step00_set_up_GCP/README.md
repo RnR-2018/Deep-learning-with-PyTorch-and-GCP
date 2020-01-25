@@ -43,7 +43,9 @@ To the best of our knowledge, new users to the google cloud platform are granted
 10. The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
 <img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png" alt="VM_configuration" width="800px" height="200px">
 
-11. Finally, you need to mount the new big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/).</br>
+11. You can choose a way to transfer your files to google cloud platform [here](https://cloud.google.com/compute/docs/instances/transfer-files).
+
+12. (optional) If you need to mount a additional big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/).</br>
 **NOTE:**  In our case, we use `/demo-mount` as our mount point.
 
 
