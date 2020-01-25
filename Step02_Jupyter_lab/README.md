@@ -11,7 +11,7 @@ This chapter has two major sections.
 *To be honest this is not essential, but will make your future life easier. If the IP address is not set to be static, it might change every now and then, and you might have to look up the new IP address each time you need it.*
 
 1. On GCP, go to "VPC network" > "External IP addresses".
-<img src="/Step02_Jupyter_lab/Images/external_IP_address.png" alt="add_new_disk" width="120px" height="300px">
+<img src="/Step02_Jupyter_lab/Images/external_IP_address.png" alt="add_new_disk" width="200px" height="350px">
 
 2. Change the IP address from "Ephemeral" to "Static". Give it a name you like.
 <img src="/Step02_Jupyter_lab/Images/configure_static_address.png" alt="add_new_disk" width="300px" height="100px"> <img src="/Step02_Jupyter_lab/Images/configure_static_address_continued.png" alt="add_new_disk" width="300px" height="150px">
