@@ -111,7 +111,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 <summary><strong>If your device uses a Windows OS.</strong></summary>
 <br>
 
-1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
+1. **On the local device (NOT THE GCP)** download google cloud software development kit (SDK). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
 2. Log in google cloud SDK.
@@ -168,7 +168,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 <summary><strong>If your device uses a MAC OS.</strong></summary>
 <br>
 
-1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
+1. **On the local device (NOT THE GCP)** download google cloud software development kit (SDK). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
 2. Log in google cloud SDK. Open **Terminal #1 on you local device**. This terminal will be your local machine that connects to the GCP instance.
