@@ -61,11 +61,11 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     
     After modification:
     
-    <img src="/Step03_GUI_setup (optional)/images/xstartup_after_modification.png" alt="add_new_disk" width="600px" height="200px">
+    <img src="/Step03_GUI_setup (optional)/images/xstartup_after_modification.png" alt="add_new_disk" width="600px" height="300px">
 
     Remember to use "Ctrl+X" followed by typing "Y" followed by pressing "Return/Enter" to save your changes.
 
-7. Kill the VNC server session. Close the GCP VM SSH Terminal, re-open the SSH Terminal, (so that the new configuration is implemented), and re-start the vncserver.
+7. (This step is just to refresh the GCP VM and update the settings.) Kill the VNC server session. Close the GCP VM SSH Terminal, re-open the SSH Terminal, and re-start the vncserver.
 
     The code to kill the VNC server session is:
     ```
@@ -105,7 +105,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
-2. Log in google cloud sdk
+2. Log in google cloud SDK.
     ```
     gcloud auth login
     ```
@@ -155,40 +155,66 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 
 
 ### If your device uses a MAC OS.
+1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
+        [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
-1. Open **Terminal #2**. This terminal will be your local machine that connects to the GCP instance.
+2. Log in google cloud SDK. Open **Terminal #1 on you local device**. This terminal will be your local machine that connects to the GCP instance.
+
+    **In Terminal #1:**
+    ```
+    gcloud auth login
+    ```
+
+    A pop-up window on your browser will ask you to log in with your google account.
+    
+3. Initialize the google cloud configuration.
+
+    **In Terminal #1:**
+    ```
+    gcloud init
+    ```
+
+   Follow the instructions and build your configurations. Faithfully enter the account email, project ID, etc.
+
+4. Create a SSH tunnel between your local device and GCP.
+
+    **In Terminal #1:**    
+    ```
+    gcloud compute ssh [Username]@[Instance Name] --project [Project ID] --zone [Zone ID] --ssh-flag "-L [Port Number]"
+    ```
+
+    Example:
+    ```
+    gcloud compute ssh msnanyanzhu@bmen4460 --project gentle-nuance-238411 --zone northamerica-northeast1-a --ssh-flag "-L 5901:localhost:5901"
+    ```
+
+    *Note: If you have trouble with this, you may try removing the --zone entrance while keeping the rest untouched. That may work.*
+    
+    - **Instance Name** The virtual machine instance name. (In our case it is "bmen4460")
+    <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
+    
+    - **Project ID** Click on "My First Project" and check the ID. (In our case it is "gentle-nuance-238411")
+    <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="200px">
+    
+    - **Zone ID** The thing under the "Zone" tag. (In our case it is "us-central1-a")
+    <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
+    
+    - **Port Number** Remember to change the two "5901" to whatever VNC port number you originally set up in part 1. If you used port 5902, for example, you should type **--ssh-flag "-L 5902:localhost:5902".** Also, please use the full number, instead of the abbreviation (i.e., use 5932 instead of 32, etc.).
+
+5. Now there should be a pop-up terminal on your own Windows device, stating that you have connected to the GCP server. This terminal is equivalent to the SSH terminal on the GCP VM. Once you have this pop-up terminal running, you can use VNC viewer to connect to your GCP VM (graphically instead of through a text-based interface).
+
+6. Open **Terminal #2 on your local device**. This terminal will be your VNC Viewer command line. Mac is amazing in that it has, on its own, the functionality provided by the VNC viewer software that has to be downloaded externally for Windows.
 
     **In Terminal #2:**
+    ```
+    open vnc://localhost:5901
+    ```
 
-        gcloud auth login
-        gcloud compute ssh bmen4460 --project gentle-nuance-238411 --zone us-central1-a --ssh-flag "-L 5901:localhost:5901"
+    Use the password you set up when initializing the server. Now you should see your GCP VM through a graphical interface.
+    
+7. Kill the VNC server session (**on the GCP VM Server**) when you are done.
+    ```
+    vncserver -kill :1
+    ```
 
-    This will bring up a pop-up screen which also shows the GCP instance interface. Do not need to do anything with that.
-
-4. Open **Terminal #3**. This terminal will be your VNC Viewer command line.
-
-    **In Terminal #3:**
-
-        open vnc://localhost:5901
-
-5. Remember to shut down the VNC Server after you are finished. **In Terminal #1**:
-
-        vncserver -kill :1
-        
-        
-        
-        
-        
-        
-## **if you got grey desktop after login use vnc client, try this :**
-  ```
-  nano ~/.vnc/xstartup
-  ```
-  add this code :
-  ```
-  gnome-panel &
-  gnome-settings-daemon &
-  metacity &
-  nautilus &
-  after x-window-manager &
-  ```
+## End of this chapter: Step03_GUI_setup.
