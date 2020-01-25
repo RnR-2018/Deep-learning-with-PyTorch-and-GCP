@@ -102,7 +102,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 *We are only roughly familiar with windows and Mac, and you may need to find your own way out there if you are using other operating systems on your own device.*
 
 <details>
-<summary><header>If your device uses a Windows OS.</header></summary>
+<summary><d>If your device uses a Windows OS.</d></summary>
 <br>
 
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
