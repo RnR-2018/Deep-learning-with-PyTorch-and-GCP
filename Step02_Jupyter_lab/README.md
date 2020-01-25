@@ -67,7 +67,7 @@ At this stage, we want you to keep track of two things.
     ```
     example:
     ```
-    python -m ipykernel install --user --name BMEN4460 --display-name "Python BMEN4460"
+    python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
     ```    
     
     Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
