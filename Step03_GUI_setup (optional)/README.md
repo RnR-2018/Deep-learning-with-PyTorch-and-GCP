@@ -101,7 +101,10 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 ## Part 2. On your local device (the Client). (While the VNC server is running.)
 *We are only roughly familiar with windows and Mac, and you may need to find your own way out there if you are using other operating systems on your own device.*
 
-### If your device uses a Windows OS.
+<details>
+<summary><header>If your device uses a Windows OS.</header></summary>
+<br>
+
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
@@ -152,6 +155,8 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     ```
     vncserver -kill :1
     ```
+
+</details>
 
 
 ### If your device uses a MAC OS.
@@ -216,5 +221,9 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     ```
     vncserver -kill :1
     ```
+
+### For both Windows and Mac users.
+This is what the graphical user interface on GCP VM looks like.
+<img src="/Step03_GUI_setup (optional)/images/GUI_looklike.png" alt="GCP_console" width="700px" height="500px">
 
 ## End of this chapter: Step03_GUI_setup.
