@@ -26,14 +26,18 @@ This chapter has two major sections.
 
 <img src="/Step02_Jupyter_lab/Images/configure_firewall_rules.png" alt="add_new_disk" width="300px" height="500px"> <img src="/Step02_Jupyter_lab/Images/configure_firewall_rules_continued.png" alt="add_new_disk" width="300px" height="500px">
 
-3. At this stage, we want you to keep track of two things.
+### Checkpoint
+At this stage, we want you to keep track of two things.
+
 1) Your external IP address. Can be found in GCP > "Compute Engine" > "VM instances".
 (In our case, 35.203.66.22)
-<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="600px" height="100px">
+
+<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="400px" height="100px">
 
 and 2) Your port number that allows HTTP/HTTPS incoming traffic. Can be found in GCP > "VPC network" > "Firewall rules".
 (In our case, port 4460)
-<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="600px" height="100px">
+
+<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="400px" height="100px">
 
 ## Section 2. Use jupyter lab on GCP.
 
