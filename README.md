@@ -3,7 +3,7 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
 ## Overview
-This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University.</br>
+This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.</br>
 
 This repository is still in progress. We will add one new post per week. Please help us improve this repository by leaving your comments or problems you encountered in the "Issues" section.
 <img src="/Images/issues_button.png" alt="GCP_console" width="300px" height="60px">
