@@ -7,6 +7,10 @@ This step is absolutely unessential for this course. The purpose of this step is
 There might be other ways to set up a graphical user interface on GCP, but what we introduce here is a comparatively straightforward method to implement. Conceptually you will configure the GCP VM instance as a server, an entity that can serve as a host and welcome connections, and on the other hand you will use your own device (desktop, laptop, etc.) as a client to connect to the server. We will introduce VNC Server-Client pair for this purpose.
 
 ## Part 1. On the GCP VM (the Server).
+<details>
+<summary><strong>What to do with the GCP VM.</strong></summary>
+<br>
+
 1. On the Google Cloud Platform, navigate to the Virtual Machine section and activate the instance you want to work in. Open the SSH terminal.
 
 2. Upgrade apt-get
@@ -97,6 +101,8 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     
     **Now you are done with the modifications on the side of the GCP VM (the Server).**
 
+</details>
+
 
 ## Part 2. On your local device (the Client). (While the VNC server is running.)
 *We are only roughly familiar with windows and Mac, and you may need to find your own way out there if you are using other operating systems on your own device.*
@@ -158,8 +164,10 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 
 </details>
 
+<details>
+<summary><strong>If your device uses a MAC OS.</strong></summary>
+<br>
 
-### If your device uses a MAC OS.
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (sdk). Install it as instructed.
         [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 
@@ -221,6 +229,8 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     ```
     vncserver -kill :1
     ```
+
+</details>
 
 ### For both Windows and Mac users.
 This is what the graphical user interface on GCP VM looks like.
