@@ -29,12 +29,12 @@ This chapter has two major sections.
 ### Checkpoint
 At this stage, we want you to keep track of two things.
 
-1) Your external IP address. Can be found in GCP > "Compute Engine" > "VM instances".
+1) **Your external IP address.** Can be found in GCP > "Compute Engine" > "VM instances".
 (In our case, 35.203.66.22)
 
 <img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="600px" height="50px">
 
-2) Your port number that allows HTTP/HTTPS incoming traffic. Can be found in GCP > "VPC network" > "Firewall rules".
+2) **Your port number that allows HTTP/HTTPS incoming traffic.** Can be found in GCP > "VPC network" > "Firewall rules".
 (In our case, port 4460)
 
 <img src="/Step02_Jupyter_lab/Images/your_port_allowed.png" alt="add_new_disk" width="600px" height="50px">
@@ -56,16 +56,12 @@ At this stage, we want you to keep track of two things.
     
     <img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
 
-3. Make sure that you have installed jupyter lab or jupyter notebook.
+3. Make sure that you have installed jupyter lab.
     *If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
     ```
     conda install jupyter jupyterlab -c anaconda
     ```
-    or
-    ```
-    conda install jupyter jupyternotebook -c anaconda
-    ```
-4. Install a jupyter notebook kernel in the respective environment.
+4. Install a jupyter kernel in the respective environment.
     ```
     python -m ipykernel install --user --name [myenv] --display-name "[Python (myenv)]"
     ```
@@ -76,29 +72,27 @@ At this stage, we want you to keep track of two things.
     
     Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
 
-5. **(Important) Create and modify a jupyter configuration file.**
-    
-    **1) Create the config.**
+### Step 2. (Important) Create and modify a jupyter configuration file.
+*For this step, credit goes to [https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/](https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/). We were unaware of this before.*
+
+1. Create the config.
     ```
     jupyter lab --generate-config
     ```
-    or 
-    ```
-    jupyter notebook --generate-config
-    ```
-    Whichever you choose to run, the same configuration file (named after jupyter notebook) will be created.
+    A configuration file (somehow named after jupyter notebook instead of jupyter lab) will be created.
 
     <img src="/Step02_Jupyter_lab/Images/create_jupyter_config.png" alt="add_new_disk" width="600px" height="50px">
 
-    **2) Modify the config.**
+2. Modify the config.
     The next step is comparatively challenging, especially if you have no prior experience with text editors. You will need to access the config file using either the "nano" editor (as what we will use for demonstration) or any other editor you prefer.
     
     ```
-    nano /home/msnanyanzhu/.jupyter/jupyter_notebook_config.py
+    nano /home/[username]/.jupyter/jupyter_notebook_config.py
     ```
-    and this will open the config file with the "nano" editor interface.
+    and this will open the config file with the "nano" editor interface. To be frank it is quite intimidating at the first glance.
     
-    
+    <img src="/Step02_Jupyter_lab/Images/jupyter_config_file.png" alt="add_new_disk" width="600px" height="600px">
+
     You need to add the following lines to pretty much anywhere that is not commented out within the config file.
     ```
     c = get_config()
@@ -106,12 +100,29 @@ At this stage, we want you to keep track of two things.
     c.NotebookApp.open_browser = False
     c.NotebookApp.port = 4460
     ```
-    Remember to replace the port "4460" with whatever you set up as your port number that allow HTTP/HTTPS traffic.
-    
-    
-    
+    *Remember to replace the port "4460" with whatever you set up as your port number that allow HTTP/HTTPS traffic.*
 
-6. The next step is open jupyter lab
+    The modified config file looks like this. We are so lazy and arrogant that we add the new configuration commands at the very top of the file. Once done, use Ctrl+X to exit and type "Y" to save changes, and follow up with an "Return/Enter" to confirm overwriting the existing config file.
+
+    <img src="/Step02_Jupyter_lab/Images/jupyter_config_file_modified.png" alt="add_new_disk" width="400px" height="300px">
+
+    **Now you are done with the difficult part.**
+
+### Step 3. Open a jupyter lab.
+The next step is open jupyter lab. Remember you should have your environment activated.
     ```
     jupyter lab
     ```
+    The following lines shall show up in the SSH terminal.
+    
+    <img src="/Step02_Jupyter_lab/Images/open_jupyter_lab.png" alt="add_new_disk" width="800px" height="200px">
+    
+    Do you see that website url highlighted in red? You should notice the number following the colon is the port number allowing traffic that you set up earlier in this tutorial. Now copy the entire url, but replace the string (in our case "bmen4460") ahead of the colon with your external IP address (in our case 35.203.66.22). What you will get is something like:
+    ```
+    http://35.203.66.22:4460/?token=a4a65a7cd90703e893dda91719d614ef68b2a071fe88d1af
+    ```
+    Copy and paste that url to a browser on your own PC/laptop/etc. That will open up a jupyter lab page on your own device.
+    
+    <img src="/Step02_Jupyter_lab/Images/opened_jupyter_lab.png" alt="add_new_disk" width="800px" height="400px">
+
+## End of this chapter: Step02_Jupyter_lab.
