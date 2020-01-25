@@ -22,7 +22,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
             bash Anaconda3-2019.10-Linux-x86_64.sh
     4. Once you run the installation command, there will be text instructions that guide you through the installation.
     * You can choose to install anaconda at any place you want. You may choose the default **"/home/[username]/anaconda3"** path.
-    * The only case you want to say "no" during installation is when it asks whether or not you want to install some visual studio stuff as well. You probably don't need that.
+    * When the installation kit asks whether or not to **initialize Anaconda3 by running conda init**, please choose "yes". This will save you the trouble of configuring the ~/.bashrc file, so that you can skip the next step.
 
 2. (Optional) Add the path of anaconda to the system PATH. **This is not necessary if you asked the anaconda installation kit to set the path for you.**
     ```
@@ -33,7 +33,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     export PATH="$PATH:/home/[username]/anaconda3/bin"
     ```
     
-    Please replace **"[username]"** with your own username. 
+    Please replace **"[username]"** with your own username. In our case, our username is msnanyanzhu. <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="user_name" width="300px" height="50px">
     
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
