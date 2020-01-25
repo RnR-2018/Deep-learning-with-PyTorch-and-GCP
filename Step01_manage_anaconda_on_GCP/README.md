@@ -7,24 +7,24 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 ## Step-by-step instructions
 
 <details>
-<summary><strong>1. Download and install Anaconda 3.</strong></summary>
+<summary>1. Download and install Anaconda 3.</summary>
 <br>
 
-    1. Find a suitable Anaconda 3 at the Anaconda installer archive
+1) Find a suitable Anaconda 3 at the [Anaconda installer archive](https://repo.continuum.io/archive/).
+    In this case, we chose Anaconda3-2019.10-Linux-x86_64.sh
 
-        [Anaconda installer archive](https://repo.continuum.io/archive/)
+2) Download the Anaconda Archive package. In the ssh terminal, enter:
+    ```
+    wget http://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh
+    ```
 
-        In this case, we chose Anaconda3-2019.10-Linux-x86_64.sh
-
-    2. Download the Anaconda Archive package. In the ssh terminal, enter:
-
-            wget http://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh
-
-    3. Install the package "bzip2", and install Anaconda 3 with the Archive package.
-
-            sudo apt-get install bzip2
-            bash Anaconda3-2019.10-Linux-x86_64.sh
-    4. Once you run the installation command, there will be text instructions that guide you through the installation.
+3) Install the package "bzip2", and install Anaconda 3 with the Archive package.
+    ```
+    sudo apt-get install bzip2
+    bash Anaconda3-2019.10-Linux-x86_64.sh
+    ```
+    
+4) Once you run the installation command, there will be text instructions that guide you through the installation.
     * You can choose to install anaconda at any place you want. You may choose the default **"/home/[username]/anaconda3"** path.
     * When the installation kit asks whether or not to **initialize Anaconda3 by running conda init**, please choose "yes". This will save you the trouble of configuring the ~/.bashrc file, so that you can skip the next step.
 
@@ -36,46 +36,78 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 <br>
 
 **This is not necessary if you asked the anaconda installation kit to set the path for you.**
-    ```
-    sudo nano ~/.bashrc
-    ```
-    and add the following line to your system file.
-    ```
-    export PATH="$PATH:/home/[username]/anaconda3/bin"
-    ```
+
+```
+sudo nano ~/.bashrc
+```
+
+and add the following line to your system file.
+```
+export PATH="$PATH:/home/[username]/anaconda3/bin"
+```
     
-    Please replace **"[username]"** with your own username. In our case, our username is msnanyanzhu. <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="user_name" width="300px" height="40px">
+Please replace **"[username]"** with your own username. In our case, our username is msnanyanzhu. <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="user_name" width="300px" height="40px">
 
 </details>
 
-3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
+<details>
+<summary><strong>3. Now, refresh the system.</strong></summary>
+<br>
 
-4. Update Anaconda
+You can either run the following code in the SSH Terminal
 
-        conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
+```
+source ~/.bashrc
+```
 
-5. Create Virtual Environment [environment name].
+or alternatively, exit out the VM SSH Terminal (by closing the web browser tag hosting the VM SSH Terminal) and reopen the terminal again. Either way, after the refreshing the command "conda" can be recognized.
 
-        conda create -n [environment name] -c anaconda python=3.7 [package name] [package name]
-       
-    example:
-    ```
-      conda create -n BMEN4460 -c anaconda python=3.7
-    ```
+</details>
 
-    **python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
+<details>
+<summary><strong>4. Update Anaconda.</strong></summary>
+<br>
 
-    **-c anaconda** specifies the channel from which the package will be downloaded. Personally I recommend **anaconda**. In case the package is not available in anaconda, go search it on the web and find a decent source.
+```
+conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
+```
 
-    **package name** specifies the packages to be installed in this environment. It makes no difference whether to specify the package names to be installed here or in Step 7.
+</details>
+
+<details>
+<summary><strong>5. Create Virtual Environment.</strong></summary>
+<br>
+
+```
+conda create -n [environment name] -c anaconda python=3.7 [package name] [package name]
+```
+    
+Example:
+```
+conda create -n BMEN4460 -c anaconda python=3.7
+```
+
+**environment name** is the name you give to the new anaconda environment. In this case, we use "BMEN4460".
+
+**python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
+
+**-c anaconda** specifies the channel from which the package will be downloaded. Personally I recommend **anaconda**. In case the package is not available in anaconda, go search it on the web and find a decent source.
+
+**package name** specifies the packages to be installed in this environment. It makes no difference whether to specify the package names to be installed here or in Step 7.
+
+</details>
 
 6. Activate Virtual Environment
 
-        conda activate [environment name]
+```
+conda activate [environment name]
+```
 
 7. Install Packages
 
-        conda install -c anaconda [package name] [package name] ...
+```
+conda install -c anaconda [package name] [package name] ...
+```
 
     **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
