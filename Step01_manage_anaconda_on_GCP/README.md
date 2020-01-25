@@ -148,6 +148,8 @@ Besides these popular methods, in case you want to install a wierd package that 
     
 For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
 
+</details>
+
 <details>
 <summary>9. Download a package from GitHub.</summary>
 <br>
@@ -175,6 +177,6 @@ git clone [GitHub repository]
 conda install -c pytorch torchvision pytorch 
 conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn scikit-image
 ```
-
+</details>
 
 ## End of this chapter: Step01_manage_anaconda_on_GCP.
