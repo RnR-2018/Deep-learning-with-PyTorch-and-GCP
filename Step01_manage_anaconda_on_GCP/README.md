@@ -5,7 +5,11 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu.
 This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Linux computer) with little to not modification as well. The following instruction assumes a Linux operating system.
 
 ## Step-by-step instructions
-1. Download and install Anaconda 3.
+
+<details>
+<summary><strong>1. Download and install Anaconda 3.</strong></summary>
+<br>
+
     1. Find a suitable Anaconda 3 at the Anaconda installer archive
 
         [Anaconda installer archive](https://repo.continuum.io/archive/)
@@ -24,7 +28,14 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     * You can choose to install anaconda at any place you want. You may choose the default **"/home/[username]/anaconda3"** path.
     * When the installation kit asks whether or not to **initialize Anaconda3 by running conda init**, please choose "yes". This will save you the trouble of configuring the ~/.bashrc file, so that you can skip the next step.
 
-2. (Optional) Add the path of anaconda to the system PATH. **This is not necessary if you asked the anaconda installation kit to set the path for you.**
+</details>
+
+
+<details>
+<summary><strong>2. (Optional) Add the path of anaconda to the system PATH.</strong></summary>
+<br>
+
+**This is not necessary if you asked the anaconda installation kit to set the path for you.**
     ```
     sudo nano ~/.bashrc
     ```
@@ -34,7 +45,9 @@ This is written for installing and setting up anaconda on GCP, but can be applie
     ```
     
     Please replace **"[username]"** with your own username. In our case, our username is msnanyanzhu. <img src="/Step01_manage_anaconda_on_GCP/Images/user_name.png" alt="user_name" width="300px" height="40px">
-    
+
+</details>
+
 3. Now, exit out the VM SSH terminal (by exiting out this webpage) and reopen the terminal again. Now the command "conda" can be recognized.
 
 4. Update Anaconda
