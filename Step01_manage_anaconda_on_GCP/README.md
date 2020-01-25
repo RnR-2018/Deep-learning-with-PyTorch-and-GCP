@@ -39,11 +39,16 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
 4. Update Anaconda
 
-        conda update --prefix [where you installed anaconda]/anaconda3 -c anaconda anaconda
+        conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
 
 5. Create Virtual Environment [environment name].
 
         conda create -n [environment name] -c anaconda python=3.7 [package name] [package name]
+       
+    example:
+    ```
+    conda create -n BMEN4460 -c anaconda python=3.7
+    ```
 
     **python=3.7** specifies that the python version 3.7 to be installed in this environment. If you want a different version, change it to what you want.
 
