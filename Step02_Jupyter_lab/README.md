@@ -32,12 +32,12 @@ At this stage, we want you to keep track of two things.
 1) Your external IP address. Can be found in GCP > "Compute Engine" > "VM instances".
 (In our case, 35.203.66.22)
 
-<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="400px" height="100px">
+<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="600px" height="50px">
 
-and 2) Your port number that allows HTTP/HTTPS incoming traffic. Can be found in GCP > "VPC network" > "Firewall rules".
+2) Your port number that allows HTTP/HTTPS incoming traffic. Can be found in GCP > "VPC network" > "Firewall rules".
 (In our case, port 4460)
 
-<img src="/Step02_Jupyter_lab/Images/your_external_IP_address.png" alt="add_new_disk" width="400px" height="100px">
+<img src="/Step02_Jupyter_lab/Images/your_port_allowed.png" alt="add_new_disk" width="600px" height="50px">
 
 ## Section 2. Use jupyter lab on GCP.
 
