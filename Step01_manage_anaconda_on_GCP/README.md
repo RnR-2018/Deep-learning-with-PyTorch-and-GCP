@@ -32,7 +32,7 @@ This is written for installing and setting up anaconda on GCP, but can be applie
 
 
 <details>
-<summary><strong>2. (Optional) Add the path of anaconda to the system PATH.</strong></summary>
+<summary>2. (Optional) Add the path of anaconda to the system PATH.</summary>
 <br>
 
 **This is not necessary if you asked the anaconda installation kit to set the path for you.**
@@ -51,7 +51,7 @@ Please replace **"[username]"** with your own username. In our case, our usernam
 </details>
 
 <details>
-<summary><strong>3. Now, refresh the system.</strong></summary>
+<summary>3. Now, refresh the system.</summary>
 <br>
 
 You can either run the following code in the SSH Terminal
@@ -65,7 +65,7 @@ or alternatively, exit out the VM SSH Terminal (by closing the web browser tag h
 </details>
 
 <details>
-<summary><strong>4. Update Anaconda.</strong></summary>
+<summary>4. Update Anaconda.</summary>
 <br>
 
 ```
@@ -75,7 +75,7 @@ conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
 </details>
 
 <details>
-<summary><strong>5. Create Virtual Environment.</strong></summary>
+<summary>5. Create Virtual Environment.</summary>
 <br>
 
 ```
@@ -97,47 +97,80 @@ conda create -n BMEN4460 -c anaconda python=3.7
 
 </details>
 
-6. Activate Virtual Environment
+<details>
+<summary>6. Activate Virtual Environment.</summary>
+<br>
 
 ```
 conda activate [environment name]
 ```
 
-7. Install Packages
+Example:
+```
+conda activate BMEN4460
+```
+
+</details>
+
+<details>
+<summary>7. Install Packages.</summary>
+<br>
 
 ```
 conda install -c anaconda [package name] [package name] ...
 ```
 
-    **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
+**-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
-      **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
-      - No.1
-          > conda install -c anaconda **packagename**
+**NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
+- No.1
+> conda install -c anaconda **packagename**
 
-      - No.2
-          > conda install -c conda-forge **packagename**
+- No.2
+> conda install -c conda-forge **packagename**
 
-      - No.3
-          > conda install **packagename**
+- No.3
+> conda install **packagename**
 
-      - No.4
-          > python -m pip install **packagename**
+- No.4
+> python -m pip install **packagename**
 
-      - No.5
-          > pip install **packagename**
+- No.5
+> pip install **packagename**
 
-8. Install Packages (continued)
+</details>
 
-    Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this wierd package]"**, and find the offical answer given by anaconda cloud.
+<details>
+<summary>8. Install Packages (continued).</summary>
+<br>
+
+Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this wierd package]"**, and find the offical answer given by anaconda cloud.
     
-    For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
+For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
 
-9. To download a package from github, you can use following command:
-      > conda install git pip<br/>
-      > pip install git+<git_url>
+<details>
+<summary>9. Download a package from GitHub.</summary>
+<br>
 
-10. Recommended packages for BMEN4460.
+To download a package from github, you can use following command:
+```
+conda install git pip
+pip install git+[git_url]
+```
+
+You can refer to the specific GitHub package when you really come across this case.
+
+Note that is different from downloading a repository from GitHub, which is much easier:
+```
+git clone [GitHub repository]
+```
+
+</details>
+
+<details>
+<summary>10. Recommended packages for BMEN4460.</summary>
+<br>
+
 ```
 conda install -c pytorch torchvision pytorch 
 conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn scikit-image
@@ -145,4 +178,3 @@ conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn sciki
 
 
 ## End of this chapter: Step01_manage_anaconda_on_GCP.
-
