@@ -59,13 +59,14 @@ Configure the VM according to your needs. Most configurations can be modified af
 
 <img src="/Step00_set_up_GCP/Images/make_disk_larger.png" alt="add_new_disk" width="400px" height="300px">
 
+Click "create" on the very bottom of the page once you are confident in the selections.
+
 </details>
 
 <details>
-<summary>6. Complete the VM instance creation <strong>and friendly warnings</strong>.</summary>
+<summary>6. How to start/stop the VM instance, <strong>and friendly warnings</strong>.</summary>
 <br>
 
-Click "create" on the very bottom of the page once you are confident in the selections.
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
 - **Whenever the VM is in the "start" status you are charged for the computational resource. We have a friend being charged $400+ because she forgot to hit "stop" and left the VM running for several months after a computer science course. So please "stop" it when you are not using it.**
 - In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
