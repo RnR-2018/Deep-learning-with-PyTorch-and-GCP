@@ -57,6 +57,8 @@ At this stage, we want you to keep track of two things.
 
 </details>
 
+</details>
+
 ## Section 2. Use jupyter lab on GCP.
 
 <details>
