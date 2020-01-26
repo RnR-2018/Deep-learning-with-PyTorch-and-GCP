@@ -6,6 +6,8 @@ This step is absolutely unessential for this course. The purpose of this step is
 
 If you have the GUI set up successfully, you can do things you are used to with your own device, such as browsing the files and folders, double clicking to open them, etc. Also, you can open a jupyter lab where it is (on the GUI hosted by the GCP VM), without moving back and forth between GCP VM and your own device.
 
+If you have trouble with this and cannot get it done no matter how hard you (and your TA) try, you can completely skip this without worrying it will haunt you later in the day. This is completely optional and does not bring you any good beyond the aesthetic appeal and familarity.
+
 There might be other ways to set up a graphical user interface on GCP, but what we introduce here is a comparatively straightforward method to implement. Conceptually you will configure the GCP VM instance as a server, an entity that can serve as a host and welcome connections, and on the other hand you will use your own device (desktop, laptop, etc.) as a client to connect to the server. We will introduce VNC Server-Client pair for this purpose.
 
 ## Part 1. On the GCP VM (the Server).
