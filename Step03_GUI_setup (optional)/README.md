@@ -234,8 +234,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 
 </details>
 
-### For both Windows and Mac users.
-This is what the graphical user interface on GCP VM looks like.
+### This is what the graphical user interface on GCP VM looks like.
 <img src="/Step03_GUI_setup (optional)/images/GUI_looklike.png" alt="GCP_console" width="700px" height="500px">
 
 ## End of this chapter: Step03_GUI_setup.
