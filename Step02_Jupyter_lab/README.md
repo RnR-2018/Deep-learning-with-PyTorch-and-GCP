@@ -7,16 +7,27 @@ This chapter has two major sections.
 * Section 2. Use jupyter lab on GCP.
 
 ## Section 1. Configure GCP to accomodate jupyter lab.
-### Step 1. Configure a static external IP address.
+
+<details>
+<summary><strong>Step 1. Configure a static external IP address.</strong></summary>
+<br>
+
 *To be honest this is not essential, but will make your future life easier. If the IP address is not set to be static, it might change every now and then, and you might have to look up the new IP address each time you need it.*
 
-1. On GCP, go to "VPC network" > "External IP addresses".
+On GCP, go to "VPC network" > "External IP addresses".
+
 <img src="/Step02_Jupyter_lab/Images/external_IP_address.png" alt="add_new_disk" width="200px" height="350px">
 
-2. Change the IP address from "Ephemeral" to "Static". Give it a name you like.
+Change the IP address from "Ephemeral" to "Static". Give it a name you like.
+
 <img src="/Step02_Jupyter_lab/Images/configure_static_address.png" alt="add_new_disk" width="300px" height="100px"> <img src="/Step02_Jupyter_lab/Images/configure_static_address_continued.png" alt="add_new_disk" width="300px" height="150px">
 
-### Step 2. (Important) Update firewall rules.
+</details>
+
+<details>
+<summary><strong>Step 2. (Important) Update firewall rules.</strong></summary>
+<br>
+
 1. On GCP, go to "VPC network" > "Firewall rules".
 
 <img src="/Step02_Jupyter_lab/Images/firewall_rules.png" alt="add_new_disk" width="500px" height="150px">
@@ -26,7 +37,12 @@ This chapter has two major sections.
 
 <img src="/Step02_Jupyter_lab/Images/configure_firewall_rules.png" alt="add_new_disk" width="300px" height="500px"> <img src="/Step02_Jupyter_lab/Images/configure_firewall_rules_continued.png" alt="add_new_disk" width="300px" height="500px">
 
-### Checkpoint
+</details>
+
+<details>
+<summary><strong>Checkpoint</strong></summary>
+<br>
+
 At this stage, we want you to keep track of two things.
 
 1) **Your external IP address.** Can be found in GCP > "Compute Engine" > "VM instances".
@@ -39,8 +55,13 @@ At this stage, we want you to keep track of two things.
 
 <img src="/Step02_Jupyter_lab/Images/your_port_allowed.png" alt="add_new_disk" width="600px" height="50px">
 
+</details>
+
 ## Section 2. Use jupyter lab on GCP.
-### Step 1. Initiate jupyter lab.
+
+<details>
+<summary><strong>Step 1. Initiate jupyter lab.</strong></summary>
+<br>
 
 1. Go to GCP, start your VM instance, open SSH terminal. If unfamiliar, refer to chapter "Step00_set_up_GCP".
 
@@ -71,6 +92,8 @@ At this stage, we want you to keep track of two things.
     ```    
     
     Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
+
+</details>
 
 ### Step 2. (Important) Create and modify a jupyter configuration file.
 *For this step, credit goes to [https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/](https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/). We were unaware of this before.*
