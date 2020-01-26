@@ -16,6 +16,13 @@ This repository is still in progress. We will add one new post per week. Please 
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
 ## Additional resources.
-1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Quite cool. There are a lot of things that we never heard of.
+2. [Udacity Online Course](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229). This is not free, and not relevant to the course BMEN4460 at all. It is just a course we looked into personally. We are not paid or anything to advertise this.
 
+## Useful links (to be organized).
+- [Biomedical Image Analysis” by Irina Radchenko](https://medium.com/@iradche/biomedical-image-analysis-d06024b8c122).
+- (Video)[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/playlist?list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG).
+- (Video)[Introduction - Deep Learning and Neural Networks with Python and Pytorch](https://www.youtube.com/watch?v=BzcBsTou0C0&feature=youtu.be).
 
+## Papers.
+- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
