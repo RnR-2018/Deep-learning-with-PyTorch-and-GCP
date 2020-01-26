@@ -25,4 +25,4 @@ This repository is still in progress. We will add one new post per week. Please 
 - (Video)[Introduction - Deep Learning and Neural Networks with Python and Pytorch](https://www.youtube.com/watch?v=BzcBsTou0C0&feature=youtu.be).
 
 ## Papers.
-- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937){:target="_blank"}.
+- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
