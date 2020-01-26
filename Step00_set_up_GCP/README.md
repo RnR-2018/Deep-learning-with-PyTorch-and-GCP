@@ -105,7 +105,7 @@ You can choose a way to transfer your files to google cloud platform from [here]
 <summary>10. (Optional) Mount an additional big disk.</summary>
 <br>
   
-If you need to mount a additional big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/). For real, this is really unnecessary, as I don't believe I will ever need such a gigantic disk for my course projects.
+If you need to mount a additional big disk you created in your VM. you can follow the instruction [here](https://www.cloudbooklet.com/attach-and-mount-disks-to-vm-instance-in-google-cloud/). For real, this is really unnecessary, as we don't believe we will ever need such a gigantic disk for our course projects.
 
 </details>
 
