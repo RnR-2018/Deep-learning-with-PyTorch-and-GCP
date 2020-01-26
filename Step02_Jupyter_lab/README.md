@@ -63,35 +63,54 @@ At this stage, we want you to keep track of two things.
 <summary><strong>Step 1. Initiate jupyter lab.</strong></summary>
 <br>
 
-1. Go to GCP, start your VM instance, open SSH terminal. If unfamiliar, refer to chapter "Step00_set_up_GCP".
+<details>
+<summary><strong>1. Activate anaconda environment.</strong></summary>
+<br>
+Go to GCP, start your VM instance, open SSH terminal. If unfamiliar, refer to chapter "Step00_set_up_GCP".
 
-2. Activate the environment you need to work with
-    ```
-    conda activate [myenv]
-    ```
-    example:
-    ```
-    conda activate BMEN4460
-    ```
-    After doing this, the "(base)" in the command line will become "([myenv])".
-    
-    <img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
+Activate the environment you need to work with
+```
+conda activate [myenv]
+```
 
-3. Make sure that you have installed jupyter lab.
-    *If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
-    ```
-    conda install jupyter jupyterlab -c anaconda
-    ```
-4. Install a jupyter kernel in the respective environment.
-    ```
-    python -m ipykernel install --user --name [myenv] --display-name "[Python (myenv)]"
-    ```
-    example:
-    ```
-    python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
-    ```    
+Example:
+```
+conda activate BMEN4460
+```
+
+After doing this, the "(base)" in the command line will become "([myenv])".
     
-    Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
+<img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
+
+</details>
+
+<details>
+<summary><strong>2. Make sure that you have installed jupyter lab.</strong></summary>
+<br>
+
+*If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
+```
+conda install jupyter jupyterlab -c anaconda
+```
+
+</detail>
+
+<details>
+<summary><strong>3. Install a jupyter kernel in the respective environment.</strong></summary>
+<br>
+
+```
+python -m ipykernel install --user --name [myenv] --display-name "[Python (myenv)]"
+```
+
+Example:
+```
+python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
+```    
+    
+Now the jupyter kernel is distinctively pointing to the python in the corresponding environment.
+
+</details>
 
 </details>
 
