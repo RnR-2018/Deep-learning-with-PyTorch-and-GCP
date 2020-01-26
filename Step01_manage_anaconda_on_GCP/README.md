@@ -170,7 +170,7 @@ git clone [GitHub repository]
 </details>
 
 <details>
-<summary>10. Recommended packages for <strong>BMEN4460</strong>.</summary>
+<summary>10. Recommended packages for BMEN4460.</summary>
 <br>
 
 ```
