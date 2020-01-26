@@ -65,9 +65,7 @@ At this stage, we want you to keep track of two things.
 <summary><strong>Step 1. Initiate jupyter lab.</strong></summary>
 <br>
 
-<details>
-<summary>1. Activate anaconda environment.</summary>
-<br>
+1. Activate anaconda environment.
 
 Go to GCP, start your VM instance, open SSH terminal. If unfamiliar, refer to chapter "Step00_set_up_GCP".
 
@@ -85,22 +83,16 @@ After doing this, the "(base)" in the command line will become "([myenv])".
     
 <img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
 
-</details>
 
-<details>
-<summary>2. Make sure that you have installed jupyter lab.</summary>
-<br>
+2. Make sure that you have installed jupyter lab.
 
 *If it is already installed (as it should if you followed through chapter "Step01_manage_anaconda_on_GCP"), you can skip this. If not, you can use following command to install one of them. We personally prefer jupyter lab.*
 ```
 conda install jupyter jupyterlab -c anaconda
 ```
 
-</details>
 
-<details>
-<summary>3. Install a jupyter kernel in the respective environment.</summary>
-<br>
+3. Install a jupyter kernel in the respective environment.
 
 ```
 python -m ipykernel install --user --name [myenv] --display-name "[Python (myenv)]"
@@ -115,8 +107,6 @@ Now the jupyter kernel is distinctively pointing to the python in the correspond
 
 </details>
 
-</details>
-
 
 <details>
 <summary><strong>Step 2. (Important) Create and modify a jupyter configuration file.</strong></summary>
@@ -124,9 +114,8 @@ Now the jupyter kernel is distinctively pointing to the python in the correspond
 
 *For this step, credit goes to [https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/](https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/). We were unaware of this before.*
 
-<details>
-<summary>1. Create the config.</strong></summary>
-<br>
+
+1. Create the config.
 
 ```
 jupyter lab --generate-config
@@ -136,11 +125,8 @@ A configuration file (somehow named after jupyter notebook instead of jupyter la
 
 <img src="/Step02_Jupyter_lab/Images/create_jupyter_config.png" width="800px" height="50px">
 
-</details>
 
-<details>
-<summary>2. Modify the config.</strong></summary>
-<br>
+2. Modify the config.
 
 The next step is comparatively challenging, especially if you have no prior experience with text editors. You will need to access the config file using either the "nano" editor (as what we will use for demonstration) or any other editor you prefer.
 
@@ -169,7 +155,6 @@ The modified config file looks like this. We are so lazy and arrogant that we ad
 
 **Now you are done with the difficult part.**
 
-</details>
 
 </details>
 
