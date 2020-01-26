@@ -2,7 +2,7 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu.
 
 ## Overview
-This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Mac or Linux computer) with little to not modification as well (Windows users might have more troubles as the commands are quite different). The following instruction assumes a Linux (Ubuntu/Debian/etc) operating system (as how you should have configured your GCP VM instance).
+This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Mac or Linux computer) with little to not modification as well. Windows users might have more hussles as the commands are quite different. The following instruction assumes a Linux (Ubuntu/Debian/etc) operating system (as how you should have configured your GCP VM instance).
 
 ## Step-by-step instructions
 
