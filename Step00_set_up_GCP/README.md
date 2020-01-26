@@ -53,7 +53,7 @@ Configure the VM according to your needs. Most configurations can be modified af
 - Please select the computational resources (number of CPUs and amount of memory) according to your needs. In this case we selected 4 CPUs and 26 GB memory. You might want larger memory depending on your project.
 - Also note that on the upper right corner there is an estimation of the monthly cost based on your current configuration. That gives you a rough idea on how you want to manage your budget.
 - For students enrolled in the BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo, you are strongly suggested to select the "Debian GNU/Linux 9 (stretch)" for the Boot disk.
-- *DON'T DO THIS YET! LET US VERIFY THIS FIRST! You can choose to **add GPU** to the VM by expanding the "CPU platform and GPU" option under the "Machine configuration" panel. We chose to add 1 NVIDIA Tesla T4 GPU.*
+- Don't try to add GPUs yet, there will be a future section on how to do that.
 - In the "firewall" section (not included in the following screenshot), you probably want to check "allow HTTP traffic" and "allow HTTPS traffic" in case you need network connection to your VM.
 - At last, you may need a larger disk than the default setup to store more data. (In fact, the default setup cannot even contain anaconda that we will download soon.) In the "boot disk" section, click on "change", and make the disk as large as you wish. As our habit, we typically use something like 100 GB.
 <img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
