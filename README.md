@@ -9,9 +9,9 @@ This repository is still in progress. We will add one new post per week. Please 
 <img src="/Images/issues_button.png" alt="GCP_console" width="300px" height="60px">
 
 ## Sections
-- Step 00: [Set up google cloud platform (GCP)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
+- Step 00: [Set up Google Cloud Platform (GCP) Virtual Machine (VM)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
 - Step 01: [Manage anaconda on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
-- Step 02: [Jupyter kernel setup](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step02_Jupyter_lab).
+- Step 02: [Set up Jupyter Lab](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step02_Jupyter_lab).
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
 ## Additional resources.
