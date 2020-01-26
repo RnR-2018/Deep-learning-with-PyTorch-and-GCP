@@ -2,7 +2,9 @@
 Nanyan "Rosalie" Zhu and Chen "Rapahel" Liu
 
 ## Overview.
-This step is absolutely unessential for this course. The purpose of this step is just to build a graphical user interface on GCP, such that you can browse the files and folders, double click to open them, etc. It does not provide additional functionality beyond using the SSH terminal commands, but it might be a little more welcoming for people who are uncomfortable with text-based user interfaces.
+This step is absolutely unessential for this course. The purpose of this step is just to build a graphical user interface on GCP. It does not provide additional functionality beyond using the SSH terminal commands, but it might be a little more welcoming for people who are uncomfortable with text-based user interfaces.
+
+If you have the GUI set up successfully, you can do things you are used to with your own device, such as browsing the files and folders, double clicking to open them, etc. Also, you can open a jupyter lab where it is (on the GUI hosted by the GCP VM), without moving back and forth between GCP VM and your own device.
 
 There might be other ways to set up a graphical user interface on GCP, but what we introduce here is a comparatively straightforward method to implement. Conceptually you will configure the GCP VM instance as a server, an entity that can serve as a host and welcome connections, and on the other hand you will use your own device (desktop, laptop, etc.) as a client to connect to the server. We will introduce VNC Server-Client pair for this purpose.
 
