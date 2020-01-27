@@ -28,6 +28,10 @@ This repository is still in progress. We will add one new post per week. Please 
 [IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)</br>
 [Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
 
+- Other useful githubs
+[The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
+[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
+
 
 ## Papers.
 - [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
