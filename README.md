@@ -26,7 +26,7 @@ This repository is still in progress. We will add one new post per week. Please 
 
 - Free Online Open Courses.</br>
 [IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)</br>
-[Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([Related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
+[Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
 
 
 ## Papers.
