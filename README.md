@@ -24,7 +24,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - (Video)[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/playlist?list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG).
 - (Video)[Introduction - Deep Learning and Neural Networks with Python and Pytorch](https://www.youtube.com/watch?v=BzcBsTou0C0&feature=youtu.be).
 
-- Free Online Open Courses.
+- Free Online Open Courses.</br>
 [IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)</br>
 [Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([Related github](https://github.com/udacity/deep-learning-v2-pytorch))
 
