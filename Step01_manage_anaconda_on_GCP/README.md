@@ -176,6 +176,8 @@ git clone [GitHub repository]
 ```
 conda install -c pytorch torchvision pytorch 
 conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn scikit-image
+conda install -c simpleitk simpleitk
+
 ```
 </details>
 
