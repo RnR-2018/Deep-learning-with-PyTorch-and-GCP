@@ -15,6 +15,8 @@ Go to [https://cloud.google.com](https://cloud.google.com).
 You will see an interface similar to this (though it might change from time to time). Click on the "Go to console" button and let it take you to the GCP console.
 ![GCP_homepage](/Step00_set_up_GCP/Images/GCP_homepage.PNG)
 
+If you are a new user, this will bring you to a page where Google asks you to log in. **For students in BMEN4460, please remmeber to log out of all non-Columbia google accounts before logging in with you Columbia account. Otherwise it will be very likely for you to set up a personal non-Columbia GCP account by mistake.** The log in process is quite straightforward, and please mind to not check the "auto-payment" (or something like that) option. You should receive a $300 computational resources for free as a new user, plus the $50 additional coupon provided by Dr. Andrew Laine if you are in BMEN4460.
+
 </details>
 
 <details>
@@ -110,6 +112,15 @@ The following instructions are copied from [Cloud Storage official website](http
   - Connect to a Linux instance over SSH.
   - Connect to a Windows instance over RDP.
   4. On your instance, download files from the bucket.
+
+</details>
+
+<details>
+<summary>10. But I want GPU on my VM... How?</summary>
+<br>
+
+As we have mentioned before, the VM configuration above are just for a VM without GPU. However, there are future cases that you do need a GPU, for example, an assignment with GPU requirement or the final project. Therefore we made this section specifically to help you set up a VM with GPU. **Please note that you'd better stop the VM with GPU once it is successfully created, and never start it when you truly need it, because the unit cost of the GPU-VM is significantly higher than its non-GPU counterpart.**
+
 
 </details>
 
