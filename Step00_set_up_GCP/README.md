@@ -101,6 +101,4 @@ You can choose a way to transfer your files to google cloud platform from [here]
 
 </details>
 
-</details>
-
 ## End of this chapter: step00_set_up_GCP.
