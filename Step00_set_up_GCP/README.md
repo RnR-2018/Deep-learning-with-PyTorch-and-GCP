@@ -49,6 +49,8 @@ Wait for the compute engine to get ready. Once ready, click on "Create" to creat
 <br>
 
 Configure the VM according to your needs. Most configurations can be modified after the intialization.
+**You will probably need a VM without GPU and a VM with GPU. The following settings are for the VM without GPU.**
+
 - The region and zone probably doesn't matter.
 - Please select the computational resources (number of CPUs and amount of memory) according to your needs. In this case we selected 4 CPUs and 26 GB memory. You might want larger memory depending on your project.
 - Also note that on the upper right corner there is an estimation of the monthly cost based on your current configuration. That gives you a rough idea on how you want to manage your budget.
