@@ -116,7 +116,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 <br>
 
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (SDK). Install it as instructed.
-        [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives). If you have Python installed at your own local device, you may want to download the standalone SDK, otherwise you may need to download the version with Python bundled.
+        [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives). Remember you need to install Python on your local device beforehand. Please refer to Step01_manage_anaconda_on_GCP if you are unsure of how to do that.
 
 2. Log in google cloud SDK.
     ```
@@ -173,7 +173,7 @@ There might be other ways to set up a graphical user interface on GCP, but what 
 <br>
 
 1. **On the local device (NOT THE GCP)** download google cloud software development kit (SDK). Install it as instructed.
-        [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
+        [Download google-cloud-sdk here](https://cloud.google.com/sdk/docs/downloads-versioned-archives). Remember you need to install Python on your local device beforehand. Please refer to Step01_manage_anaconda_on_GCP if you are unsure of how to do that.
 
 2. Log in google cloud SDK. Open **Terminal #1 on you local device**. This terminal will be your local machine that connects to the GCP instance.
 
