@@ -94,10 +94,19 @@ The GCP VM SSH terminal looks like this. You can pretty much use any Linux comma
 </details>
 
 <details>
-<summary>9. Transfer files to GCP VM.</summary>
+<summary>9. Transfer files to GCP VM through Cloud Storage.</summary>
 <br>
 
-You can choose a way to transfer your files to google cloud platform from [here](https://cloud.google.com/compute/docs/instances/transfer-files).
+You can choose a way to transfer your files to GCP VM from [here](https://cloud.google.com/compute/docs/instances/transfer-files).
+
+The recommended way is to transfer file to the GCP VM over the Cloud Storage bucket. Note that the Cloud Storage bucket allow for unlimited memory (probably?) as long as you have an GCP account. You will not be charged over the duration you transfer files from your local device to Cloud Storage bucket; you will only be charged when you transfer from the Cloud Storage bucket to the GCP VM.
+
+  1. Create a new Cloud Storage bucket or identify an existing bucket that you want to use to transfer files.
+  2. From your workstation, upload files to the bucket.
+  3. Connect to your instance over SSH or RDP:
+  - Connect to a Linux instance over SSH.
+  - Connect to a Windows instance over RDP.
+  4. On your instance, download files from the bucket.
 
 </details>
 
