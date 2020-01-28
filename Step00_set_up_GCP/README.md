@@ -24,7 +24,7 @@ If you are a new user, this will bring you to a page where Google asks you to lo
 <br>
 
 You should see an interface like this, assuming you have logged in your google account.
-<img src="/Step00_set_up_GCP/Images/GCP_console.png" alt="GCP_console" width="600px" height="300px">
+<img src="/Step00_set_up_GCP/Images/GCP_console.png" width="600px" height="300px">
 
 </details>
 
@@ -33,7 +33,7 @@ You should see an interface like this, assuming you have logged in your google a
 <br>
 
 Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI, "VM" stands for "virtual machine".
-<img src="/Step00_set_up_GCP/Images/VM_instances_button.png" alt="VM_instances_button" width="300px" height="400px">
+<img src="/Step00_set_up_GCP/Images/VM_instances_button.png" width="300px" height="400px">
 
 </details>
 
@@ -42,7 +42,7 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 <br>
 
 Wait for the compute engine to get ready. Once ready, click on "Create" to create a new VM instance.
-<img src="/Step00_set_up_GCP/Images/VM_instance.png" alt="VM_instance" width="800px" height="300px">
+<img src="/Step00_set_up_GCP/Images/VM_instance.png" width="800px" height="300px">
 
 </details>
 
@@ -60,9 +60,9 @@ Configure the VM according to your needs. Most configurations can be modified af
 - Don't try to add GPUs yet, there will be a future section on how to do that.
 - In the "firewall" section (not included in the following screenshot), you probably want to check "allow HTTP traffic" and "allow HTTPS traffic" in case you need network connection to your VM.
 - At last, you may need a larger disk than the default setup to store more data. (In fact, the default setup cannot even contain anaconda that we will download soon.) In the "boot disk" section, click on "change", and make the disk as large as you wish. As our habit, we typically use something like 100 GB.
-<img src="/Step00_set_up_GCP/Images/VM_configuration.png" alt="VM_configuration" width="800px" height="600px">
+<img src="/Step00_set_up_GCP/Images/VM_configuration.png" width="800px" height="600px">
 
-<img src="/Step00_set_up_GCP/Images/make_disk_larger.png" alt="add_new_disk" width="400px" height="300px">
+<img src="/Step00_set_up_GCP/Images/make_disk_larger.png" width="400px" height="300px">
 
 Click "create" on the very bottom of the page once you are confident in the selections.
 
@@ -75,7 +75,7 @@ Click "create" on the very bottom of the page once you are confident in the sele
 - **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
 - **Whenever the VM is in the "start" status you are charged for the computational resource. We have a friend being charged $400+ because she forgot to hit "stop" and left the VM running for several months after a computer science course. So please "stop" it when you are not using it.**
 - In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
-<img src="/Step00_set_up_GCP/Images/start_VM.png" alt="VM_configuration" width="800px" height="300px">
+<img src="/Step00_set_up_GCP/Images/start_VM.png" width="800px" height="300px">
 
 </details>
 
@@ -84,7 +84,7 @@ Click "create" on the very bottom of the page once you are confident in the sele
 <br>
 
 After you "start" the instance, you may open the SSH Terminal by clicking the following button. It usually takes half a minute or so before you are brought to the next window.
-<img src="/Step00_set_up_GCP/Images/VM_SSH_open.png" alt="VM_configuration" width="800px" height="200px">
+<img src="/Step00_set_up_GCP/Images/VM_SSH_open.png" width="800px" height="200px">
 
 </details>
 
@@ -93,7 +93,7 @@ After you "start" the instance, you may open the SSH Terminal by clicking the fo
 <br>
 
 The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
-<img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png" alt="VM_configuration" width="800px" height="200px">
+<img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png"  width="800px" height="200px">
 
 </details>
 
@@ -129,9 +129,25 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   
   Do not let this title scare you. The upgrade action is free (to the best of our knowledge).
   
+  Go to GCP Console > "IAM & admin" > "Quotas".
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas.PNG" width="500px" height="200px">
+  
+  Click on "upgrade account"
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas_upgrade_account.PNG" width="200px" height="100px">
   
   </details>
 
+  <details>
+  <summary>Action 2. Check your GPU Quotas.</summary>
+  <br>
+  
+  Once you upgraded your account, you can take a look at your GPU quotas. You can clearly see 4 options, "Quota type", "Service", "Metric", and "Location". Go to "Metric" and deselect everything by clicking on the "None" button in blue, and only select "GPUs (all regions)". You will see that you 
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas_GPU.PNG" width="600px" height="400px">
+  
+  
 </details>
 
 ## End of this chapter: step00_set_up_GCP.
