@@ -119,8 +119,18 @@ The following instructions are copied from [Cloud Storage official website](http
 <summary>10. But I want GPU on my VM... How?</summary>
 <br>
 
-As we have mentioned before, the VM configuration above are just for a VM without GPU. However, there are future cases that you do need a GPU, for example, an assignment with GPU requirement or the final project. Therefore we made this section specifically to help you set up a VM with GPU. **Please note that you'd better stop the VM with GPU once it is successfully created, and never start it when you truly need it, because the unit cost of the GPU-VM is significantly higher than its non-GPU counterpart.**
+As we have mentioned before, the VM configuration above are just for a VM without GPU. However, there are future cases that you do need a GPU, for example, an assignment with GPU requirement or the final project. Therefore we made this section specifically to help you set up a VM with GPU.
 
+**Please note that you'd better stop the VM with GPU once it is successfully created, and never start it when you truly need it, because the unit cost of the GPU-VM is significantly higher than its non-GPU counterpart.**
+
+  <details>
+  <summary>Action 1. Upgrade your account.</summary>
+  <br>
+  
+  Do not let this title scare you. The upgrade action is free (to the best of our knowledge).
+  
+  
+  </details>
 
 </details>
 
