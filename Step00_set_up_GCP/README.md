@@ -172,7 +172,7 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   
   2) You need to double check which region (in our case us-west1) can provide the GPU device you need, and this may take a bit of trial-and-error.
   
-  <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU.PNG" width="300px" height="60px"> <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU_continued.PNG" width="300px" height="60px">
+  <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU.PNG" width="350px" height="600px"> <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU_continued.PNG" width="350px" height="600px">
   
   Once you successfully create this VM with GPU, congradulations! **However, please remember to stop it and only start it when absolutely necessary. It charges more money over the same amount of hours spent using it.** Oh by the way, you need to do whatever installation (anaconda, Jupyter lab, etc.) within this VM just as much as in the non-GPU VM, which will be covered in the upcoming chapters.
   
