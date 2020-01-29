@@ -177,6 +177,14 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   Once you successfully create this VM with GPU, congradulations! **However, please remember to stop it and only start it when absolutely necessary. It charges more money over the same amount of hours spent using it.** Oh by the way, you need to do whatever installation (anaconda, Jupyter lab, etc.) within this VM just as much as in the non-GPU VM, which will be covered in the upcoming chapters.
   
   </details>
+  
+  </details>
+  <summary>Action 5. Install GPU driver.</summary>
+  <br>
+  
+  Follow the instructions.
+  
+  </details>
     
 </details>
 
