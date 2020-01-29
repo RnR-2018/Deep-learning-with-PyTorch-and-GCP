@@ -36,6 +36,13 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 <img src="/Step00_set_up_GCP/Images/VM_instances_button.png" width="300px" height="400px">
 
 </details>
+  
+</details>
+
+## End of this chapter: step00_set_up_GCP.
+
+
+### Misc: If you want an alternative way to create a VM instance.
 
 <details>
 <summary>4. Create a VM instance.</summary>
@@ -46,13 +53,6 @@ Wait for the compute engine to get ready. Once ready, click on "Create" to creat
 
 </details>
 
-  
-</details>
-
-## End of this chapter: step00_set_up_GCP.
-
-
-### If you want an alternative way to create a VM instance.
 <details>
 <summary>5. Configure the VM instance.</summary>
 <br>
