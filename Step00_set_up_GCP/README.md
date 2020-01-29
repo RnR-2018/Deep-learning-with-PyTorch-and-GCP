@@ -46,6 +46,13 @@ Wait for the compute engine to get ready. Once ready, click on "Create" to creat
 
 </details>
 
+  
+</details>
+
+## End of this chapter: step00_set_up_GCP.
+
+
+### If you want an alternative way to create a VM instance.
 <details>
 <summary>5. Configure the VM instance.</summary>
 <br>
@@ -173,7 +180,4 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   <img src="/Step00_set_up_GCP/Images/GPU_VM.PNG" width="400px" height="150px">
   
   </details>
-  
-</details>
 
-## End of this chapter: step00_set_up_GCP.
