@@ -39,14 +39,125 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 </details>
 
 <details>
-<summary>4. Create a VM instance (easy, one-click deal).</summary>
+<summary>4. Create a VM instance without GPU (easy, one-click deal).</summary>
 <br>
 
 Go to the GCP VM marketplace. To our best understanding, this is a market that hosts the APIs created by multiple groups of developers, and we recently discovered that people have already packaged the VM instance creation. That's why we recommend using this really convenient one-click tool. Search for "deep learning VM" at the marketplace, find it and click on it.
 
-<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="200px" height="600px"> <img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px"> <img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="200px">
+<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="200px" height="600px">
+
+<img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px">
+
+<img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="200px">
+
+Use the following configuration to set up a VM **without GPU**. Creating a version with GPU needs a bit more hustles elsewhere, and it costs more over the same duration of usage. So please get familiar with the non-GPU version before you start creating a GPU version.
 
 </details>
+
+<details>
+<summary>5. How to start/stop the VM instance, <strong>and friendly warnings</strong>.</summary>
+<br>
+
+- **The VM is automatically started now. You need to manually stop it if you don't need it right away.**
+- **Whenever the VM is in the "start" status you are charged for the computational resource. We have a friend being charged $400+ because she forgot to hit "stop" and left the VM running for several months after a computer science course. So please "stop" it when you are not using it.**
+- In most cases, you only need to use the "start" and "stop" button. If you click "reset" you will most likely lose any data you put on the VM. If you are done with the course and really no longer what this VM you can "delete" it as you wish.
+<img src="/Step00_set_up_GCP/Images/start_VM.png" width="800px" height="300px">
+
+</details>
+
+<details>
+<summary>6. Open VM SSH Terminal.</summary>
+<br>
+
+After you "start" the instance, you may open the SSH Terminal by clicking the following button. It usually takes half a minute or so before you are brought to the next window.
+<img src="/Step00_set_up_GCP/Images/VM_SSH_open.png" width="800px" height="200px">
+
+</details>
+
+<details>
+<summary>7. VM SSH Terminal.</summary>
+<br>
+
+The GCP VM SSH terminal looks like this. You can pretty much use any Linux command line code here.
+<img src="/Step00_set_up_GCP/Images/VM_SSH_terminal.png"  width="800px" height="200px">
+
+</details>
+
+<details>
+<summary>8. Transfer files to GCP VM through Cloud Storage.</summary>
+<br>
+
+You can choose a way to transfer your files to GCP VM from [here](https://cloud.google.com/compute/docs/instances/transfer-files). Note that you will be transferring from/to your local device to/from a Linux VM instance.
+
+The recommended way is to transfer file to the GCP VM over the Cloud Storage bucket. Note that the Cloud Storage bucket allow for unlimited memory (probably?) as long as you have an GCP account. You will not be charged over the duration you transfer files from your local device to Cloud Storage bucket; you will only be charged when you transfer from the Cloud Storage bucket to the GCP VM.
+
+The following instructions are copied from [Cloud Storage official website](https://cloud.google.com/compute/docs/instances/transfer-files).
+  1. Create a new Cloud Storage bucket or identify an existing bucket that you want to use to transfer files.
+  2. From your workstation, upload files to the bucket.
+  3. Connect to your instance over SSH or RDP:
+  - Connect to a Linux instance over SSH.
+  - Connect to a Windows instance over RDP.
+  4. On your instance, download files from the bucket.
+
+</details>
+
+<details>
+<summary>9. But I want GPU on my VM... How?</summary>
+<br>
+
+As we have mentioned before, the VM configuration above are just for a VM without GPU. However, there are future cases that you do need a GPU, for example, an assignment with GPU requirement or the final project. Therefore we made this section specifically to help you set up a VM with GPU.
+
+**Please note that you'd better stop the VM with GPU once it is successfully created, and never start it when you truly need it, because the unit cost of the GPU-VM is significantly higher than its non-GPU counterpart.**
+
+  <details>
+  <summary>Action 1. Upgrade your account.</summary>
+  <br>
+  
+  Do not let this title scare you. The upgrade action is free (to the best of our knowledge).
+  
+  Go to GCP Console > "IAM & admin" > "Quotas".
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas.PNG" width="500px" height="200px">
+  
+  Click on "upgrade account"
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas_upgrade_account.PNG" width="300px" height="100px">
+  
+  </details>
+
+  <details>
+  <summary>Action 2. Check your GPU quotas.</summary>
+  <br>
+  
+  Once you upgraded your account, you can take a look at your GPU quotas. You can clearly see 4 options, "Quota type", "Service", "Metric", and "Location". Go to "Metric" and deselect everything by clicking on the "None" button in blue, and only select "GPUs (all regions)". You will see that your GPU limit is set to 0, which means you are not allowed any GPU.
+  
+  <img src="/Step00_set_up_GCP/Images/Quotas_GPUs.PNG" width="600px" height="200px">
+  </details>
+  
+  <details>
+  <summary>Action 3. Request increase in GPU quotas.</summary>
+  <br>
+  
+  The next thing to do is to request an increase in your GPU quotas. Select that quota, click on "EDIT QUOTAS" and file a request. Fill in your contact information and update the quota limit to 1 instead of 0.
+  
+  <img src="/Step00_set_up_GCP/Images/Quota_request_global.PNG" width="800px" height="300px">
+  
+  Once you have sent that request, you will be notified by both the following words and a confirmation email. **It usually takes 2 business days for the request to be approved.**
+  
+  <img src="/Step00_set_up_GCP/Images/Quota_request_global_sent.PNG" width="400px" height="150px">
+  
+  </details>
+  
+  <details>
+  <summary>Action 4. VM configuration - with GPU.</summary>
+  <br>
+  
+  This time we are about to create a VM with GPU. Please use the link provided by [GCP Deep Learning VM](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/deeplearning?_ga=2.19262078.750252723.1580157876-591983468.1579623379).
+  
+  The recommended configurations are as follows. Please remember to ask it to install the NVIDIA GPU Driver.
+    
+  </details>
+
 
 </details>
 
