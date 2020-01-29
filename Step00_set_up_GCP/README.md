@@ -44,13 +44,11 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 
 Go to the GCP VM marketplace. To our best understanding, this is a market that hosts the APIs created by multiple groups of developers, and we recently discovered that people have already packaged the VM instance creation. That's why we recommend using this really convenient one-click tool.
 
-<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="100px" height="300px">
+<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="200px" height="600px">
 
 Search for "deep learning VM" at the marketplace, find it and click on it.
 
-<img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px">
-
-<img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="300px">
+<img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px"> <img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="200px">
 
 </details>
 
