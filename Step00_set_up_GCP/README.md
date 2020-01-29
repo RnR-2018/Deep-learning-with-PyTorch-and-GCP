@@ -45,7 +45,8 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 </br>
 </br>
 
-### Misc: If you want an alternative way to create a VM instance. We believe this is an old-fashioned way and is less one-click-deal.
+### Misc: An alternative way to create a VM instance.
+We believe this is an old-fashioned way and is less one-click-deal.
 
 <details>
 <summary>4. Create a VM instance.</summary>
