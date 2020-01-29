@@ -44,13 +44,13 @@ Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI,
 
 Go to the GCP VM marketplace. To our best understanding, this is a market that hosts the APIs created by multiple groups of developers, and we recently discovered that people have already packaged the VM instance creation. That's why we recommend using this really convenient one-click tool. Search for "deep learning VM" at the marketplace, find it and click on it.
 
-<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="200px" height="600px">
-
-<img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px">
-
-<img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="200px">
+<img src="/Step00_set_up_GCP/Images/GCP_Marketplace.png" width="200px" height="600px"> </br>
+<img src="/Step00_set_up_GCP/Images/deep_learning_vm.png" width="600px" height="200px"> </br>
+<img src="/Step00_set_up_GCP/Images/deep_learning_vm_continued.png" width="600px" height="200px"></br>
 
 Use the following configuration to set up a VM **without GPU**. Creating a version with GPU needs a bit more hustles elsewhere, and it costs more over the same duration of usage. So please get familiar with the non-GPU version before you start creating a GPU version.
+
+<img src="/Step00_set_up_GCP/Images/VM_cpu_config.png" width="600px" height="500px"> <img src="/Step00_set_up_GCP/Images/VM_cpu_config_continued.png" width="300px" height="300px"></br>
 
 </details>
 
@@ -149,12 +149,12 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   </details>
   
   <details>
-  <summary>Action 4. VM configuration - with GPU.</summary>
+  <summary>Action 4. VM creation - with GPU.</summary>
   <br>
   
-  This time we are about to create a VM with GPU. Please use the link provided by [GCP Deep Learning VM](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/deeplearning?_ga=2.19262078.750252723.1580157876-591983468.1579623379).
+  Use the same "Compute Engine" > "Marketplace" > "Deep Learning VM" route, but this time select a NVIDIA K80 GPU. You may want to move around and check which region/zone can provide the computational resources requested.
   
-  The recommended configurations are as follows. Please remember to ask it to install the NVIDIA GPU Driver.
+  <img src="/Step00_set_up_GCP/Images/VM_gpu_config.png" width="800px" height="300px">
     
   </details>
 
