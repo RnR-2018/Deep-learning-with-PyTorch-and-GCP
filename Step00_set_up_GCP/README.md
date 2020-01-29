@@ -166,26 +166,14 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   <summary>Action 4. VM configuration - with GPU.</summary>
   <br>
   
-  Please recall how we configured the VM instance without GPU. The configuration with GPU shall be largely the same, with 2 major differences:
+  This time we are about to create a VM with GPU. Please use the link provided by [GCP Deep Learning VM](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/deeplearning?_ga=2.19262078.750252723.1580157876-591983468.1579623379).
   
-  1) You need to click on the "CPU platform and GPU" dropdown menu below the "Machine configuration" section and choose a GPU device (with NVIDIA Tesla K80 being our recommendation).
+  The recommended configurations are as follows. Please remember to ask it to install the NVIDIA GPU Driver.
   
-  2) You need to double check which region (in our case us-west1) can provide the GPU device you need, and this may take a bit of trial-and-error.
-  
-  <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU.PNG" width="350px" height="600px"> <img src="/Step00_set_up_GCP/Images/VM_configuration_GPU_continued.PNG" width="350px" height="600px">
-  
-  Once you successfully create this VM with GPU, congradulations! **However, please remember to stop it and only start it when absolutely necessary. It charges more money over the same amount of hours spent using it.** Oh by the way, you need to do whatever installation (anaconda, Jupyter lab, etc.) within this VM just as much as in the non-GPU VM, which will be covered in the upcoming chapters.
+  <img src="/Step00_set_up_GCP/Images/GPU_VM.PNG" width="400px" height="150px">
   
   </details>
   
-  <details>
-  <summary>Action 5. Install GPU driver.</summary>
-  <br>
-  
-  [Follow the instructions](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu).
-  
-  </details>
-    
 </details>
 
 ## End of this chapter: step00_set_up_GCP.
