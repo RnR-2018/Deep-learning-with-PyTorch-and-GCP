@@ -32,11 +32,30 @@ You should see an interface like this, assuming you have logged in your google a
 <summary>3. VM instances.</summary>
 <br>
 
-Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI, "VM" stands for "virtual machine".
+Navigate to and click on the "Compute Engine" > "VM instances" button. Just FYI, "VM" stands for "virtual machine". **Don't create a VM yet!** You could potentially create a VM in this webpage (and the instructions is included in the misc section), but there is a easier way to do this which we are introducing here.
+
 <img src="/Step00_set_up_GCP/Images/VM_instances_button.png" width="300px" height="400px">
 
 </details>
-  
+
+<details>
+<summary>4. Create a VM instance (easy, one-click deal).</summary>
+<br>
+
+Go to 
+
+
+</details>
+
+<details>
+<summary>4. Create a VM instance.</summary>
+<br>
+
+Wait for the compute engine to get ready. Once ready, click on "Create" to create a new VM instance.
+<img src="/Step00_set_up_GCP/Images/VM_instance.png" width="800px" height="300px">
+
+</details>
+
 </details>
 
 ## End of this chapter: step00_set_up_GCP.
@@ -180,8 +199,6 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   This time we are about to create a VM with GPU. Please use the link provided by [GCP Deep Learning VM](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/deeplearning?_ga=2.19262078.750252723.1580157876-591983468.1579623379).
   
   The recommended configurations are as follows. Please remember to ask it to install the NVIDIA GPU Driver.
-  
-  <img src="/Step00_set_up_GCP/Images/GPU_VM.PNG" width="400px" height="150px">
-  
+    
   </details>
 
