@@ -154,7 +154,7 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   
   Use the same "Compute Engine" > "Marketplace" > "Deep Learning VM" route, but this time select a NVIDIA K80 GPU. You may want to move around and check which region/zone can provide the computational resources requested.
   
-  <img src="/Step00_set_up_GCP/Images/VM_gpu_config.png" width="800px" height="600px">
+  <img src="/Step00_set_up_GCP/Images/VM_gpu_config.png" width="800px" height="500px">
     
   </details>
 
