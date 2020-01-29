@@ -50,7 +50,7 @@ Go to the GCP VM marketplace. To our best understanding, this is a market that h
 
 Use the following configuration to set up a VM **without GPU**. Creating a version with GPU needs a bit more hustles elsewhere, and it costs more over the same duration of usage. So please get familiar with the non-GPU version before you start creating a GPU version.
 
-<img src="/Step00_set_up_GCP/Images/VM_cpu_config.png" width="600px" height="500px"> <img src="/Step00_set_up_GCP/Images/VM_cpu_config_continued.png" width="300px" height="300px"></br>
+<img src="/Step00_set_up_GCP/Images/VM_cpu_config.png" width="600px" height="500px"> <img src="/Step00_set_up_GCP/Images/VM_cpu_config_continued.png" width="300px" height="200px"></br>
 
 </details>
 
