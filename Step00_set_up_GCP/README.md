@@ -178,11 +178,11 @@ As we have mentioned before, the VM configuration above are just for a VM withou
   
   </details>
   
-  </details>
+  <details>
   <summary>Action 5. Install GPU driver.</summary>
   <br>
   
-  Follow the instructions.
+  [Follow the instructions](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu).
   
   </details>
     
