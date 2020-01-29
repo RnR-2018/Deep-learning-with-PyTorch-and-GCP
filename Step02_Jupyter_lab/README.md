@@ -1,6 +1,9 @@
 # Jupyter Lab on GCP.
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 
+## Latest update
+If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packaged method (introduced in the previous chapter) to generate your VM, you should have anaconda and jupyter installed already. In this case, you can skip the installation steps and only look at how to utilize them.
+
 ## Overview
 This chapter has two major sections.
 * Section 1. Configure GCP to accomodate jupyter lab.
