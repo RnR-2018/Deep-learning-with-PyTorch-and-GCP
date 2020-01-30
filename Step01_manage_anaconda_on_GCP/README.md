@@ -2,7 +2,7 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu.
 
 ## Latest update
-If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packaged method (introduced in the previous chapter) to generate your VM, you should have anaconda and jupyter installed already. In this case, you can skip the installation steps and only look at how to utilize them.
+If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packaged method (introduced in the previous chapter) to generate your VM, you should have anaconda and jupyter installed already. In this case, you can skip the installation steps and only look at how to utilize them (specifically step 4 to 10).
 
 ## Overview
 This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Mac or Linux computer) with little to not modification as well. Windows users might have more hussles as the commands are quite different. The following instruction assumes a Linux (Ubuntu/Debian/etc) operating system (as how you should have configured your GCP VM instance).
@@ -126,28 +126,37 @@ conda install -c anaconda [package name] [package name] ...
 **-n [environment name]** specifies which environment to install the packages in. It is not necessary if the environment currently activated is your target environment.
   
 **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
-- No.1
-> conda install -c anaconda **packagename**
-
-- No.2
-> conda install -c conda-forge **packagename**
-
-- No.3
-> conda install **packagename**
-
-- No.4
-> python -m pip install **packagename**
-
-- No.5
-> pip install **packagename**
-
+- Option 1 syntax (best)
+```
+conda install -c anaconda **packagename**
+```
+Example:
+```
+conda install -c anaconda jupyter
+```
+- Option 2 syntax (good)
+```
+conda install -c conda-forge **packagename**
+```
+- Option 3 syntax (not very good)
+```
+conda install **packagename**
+```
+- Option 4 syntax (not recommended)
+```
+python -m pip install **packagename**
+```
+- Option 5 syntax (not recommended)
+```
+pip install **packagename**
+```
 </details>
 
 <details>
 <summary>8. Install Packages (continued).</summary>
 <br>
 
-Besides these popular methods, in case you want to install a wierd package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this wierd package]"**, and find the offical answer given by anaconda cloud.
+Besides these popular methods, in case you want to install a non-anaconda package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this non-anaconda package]"**, and find the offical answer given by anaconda cloud.
     
 For instance, if you want to install **"dtw"**, doing so will redirect you to **"conda install -c freemapa dtw"**.
 
@@ -157,10 +166,15 @@ For instance, if you want to install **"dtw"**, doing so will redirect you to **
 <summary>9. Download a package from GitHub.</summary>
 <br>
 
-To download a package from github, you can use following command:
+To download a package (not a repository) from github, you can use following command:
 ```
 conda install git pip
 pip install git+[git_url]
+```
+
+Example:
+```
+
 ```
 
 You can refer to the specific GitHub package when you really come across this case.
@@ -168,6 +182,10 @@ You can refer to the specific GitHub package when you really come across this ca
 Note that is different from downloading a repository from GitHub, which is much easier:
 ```
 git clone [GitHub repository]
+```
+Example:
+```
+git clone https://
 ```
 
 </details>
