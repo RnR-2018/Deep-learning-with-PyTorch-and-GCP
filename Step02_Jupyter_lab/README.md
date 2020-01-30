@@ -197,7 +197,8 @@ Instructions on how to download that child repository (notebook along with data)
 You shall find a new folder, *BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron*, in your Jupyter Lab directory once you successfully downloaded that repository.
 
 **Remember to select the correct Jupyter kernel, or else your Jupyter Lab will not be running your environment that you just set up.**
-<img src="/Step02_Jupyter_lab/Images/jupyter_kernel_select.png" width="600px" height="400px">
+
+<img src="/Step02_Jupyter_lab/Images/jupyter_kernel_select.png" width="300px" height="200px">
 
 
 
