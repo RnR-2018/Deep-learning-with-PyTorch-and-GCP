@@ -194,7 +194,7 @@ git clone [GitHub repository]
 ```
 Example:
 ```
-git clone 
+git clone https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron
 ```
 
 </details>
