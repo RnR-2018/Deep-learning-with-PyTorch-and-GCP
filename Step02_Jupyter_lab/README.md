@@ -4,6 +4,12 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu
 ## Latest update
 If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packaged method (introduced in the previous chapter) to generate your VM, you should have anaconda and jupyter installed already. In this case, you can skip the installation steps and only look at how to utilize them.
 
+If you used that Deep Learning VM quick creation method, your anaconda is installed at /opt/anaconda3/. The first command you need to execute in GCP VM SSH Terminal is "sudo su [username]" to grant you super user authority.
+```
+sudo su [username]
+```
+Again, you can find your username by executing "pwd" once you enter the SSH Terminal. It shall show your default location after logging in, which is /home/[username].
+
 ## Overview
 This chapter has two major sections.
 * Section 1. Configure GCP to accomodate jupyter lab.
