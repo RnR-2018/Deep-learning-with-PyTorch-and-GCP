@@ -15,6 +15,9 @@ This repository is still in progress. We will add one new post per week. Please 
 - Step 02: [Set up Jupyter Lab](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step02_Jupyter_lab).
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
+## Children Repositories.
+1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron), introduced in Step 02.
+
 ## Additional resources.
 1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Quite cool. There are a lot of things that we never heard of.
 2. [Udacity Online Course](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229). This is not free, and not relevant to the course BMEN4460 at all. It is just a course we looked into personally. We are not paid or anything to advertise this.
