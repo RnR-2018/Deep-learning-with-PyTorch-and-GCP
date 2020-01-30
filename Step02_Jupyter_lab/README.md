@@ -86,7 +86,7 @@ After doing this, the "(base)" in the command line will become "([myenv])".
     
 <img src="/Step02_Jupyter_lab/Images/activate_environment.png" alt="add_new_disk" width="600px" height="50px">
 
-**Again, if you used the Deep Learning VM fast creation, you may need the root access by executing "sudo su". If you have trouble with the activation, refer to the previous chapter Step01.**
+**Again, if you used the Deep Learning VM fast creation, you may need the root access by executing "sudo su [username]". If you have trouble with the activation, refer to the previous chapter Step01.**
 
 
 2. Make sure that you have installed jupyter lab.
