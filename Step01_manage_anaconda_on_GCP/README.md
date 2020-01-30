@@ -6,8 +6,9 @@ If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packag
 
 **Before doing anything else, if you used this method to create your VM, you should execute the following line in the GCP VM SSH Terminal to grant you super user authority, because your anaconda is installed in a protected directory.**
 ```
-sudo su
+sudo su [username]
 ```
+Again, you can find your username by executing "pwd" once you enter the SSH Terminal. It shall show your default location after logging in, which is /home/[username].
 
 ## Overview
 This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Mac or Linux computer) with little to not modification as well. Windows users might have more hussles as the commands are quite different. The following instruction assumes a Linux (Ubuntu/Debian/etc) operating system (as how you should have configured your GCP VM instance).
@@ -120,7 +121,7 @@ conda init
 conda activate BMEN4460
 ```
 
-**You may very likely need to close and reopen your SSH Terminal after this step. Remember to execute "sudo su" (if you used the Deep Learning VM quick creation) and "conda activate [environment name]" again.**
+**You may very likely need to close and reopen your SSH Terminal after this step. Remember to execute "sudo su [username]" (if you used the Deep Learning VM quick creation) and "conda activate [environment name]" again.**
 
 
 </details>
