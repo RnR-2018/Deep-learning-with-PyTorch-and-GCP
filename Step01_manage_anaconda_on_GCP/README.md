@@ -128,7 +128,7 @@ conda install -c anaconda [package name] [package name] ...
 **NOTE**: Hierarchy of package installation methods (ranked from "recommended" to "don't try this if you have any other method" according to our experience)
 - Option 1 syntax (best)
 ```
-conda install -c anaconda **packagename**
+conda install -c anaconda [packagename]
 ```
 Example:
 ```
@@ -136,19 +136,19 @@ conda install -c anaconda jupyter
 ```
 - Option 2 syntax (good)
 ```
-conda install -c conda-forge **packagename**
+conda install -c conda-forge [packagename]
 ```
 - Option 3 syntax (not very good)
 ```
-conda install **packagename**
+conda install [packagename]
 ```
 - Option 4 syntax (not recommended)
 ```
-python -m pip install **packagename**
+python -m pip install [packagename]
 ```
 - Option 5 syntax (not recommended)
 ```
-pip install **packagename**
+pip install [packagename]
 ```
 </details>
 
