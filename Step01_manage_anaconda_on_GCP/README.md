@@ -118,7 +118,7 @@ Example:
 conda activate BMEN4460
 ```
 
-**If you encounter trouble in this step, you may need to close and reopen your SSH Terminal. Remember to execute "sudo su" again if you used the Deep Learning VM quick creation.**
+**If you encounter trouble in this step, you may need to run "conda init", then close and reopen your SSH Terminal. Remember to execute "sudo su" again if you used the Deep Learning VM quick creation.**
 
 </details>
 
