@@ -190,6 +190,6 @@ Copy and paste that url to a browser on your own PC/laptop/etc. That will open u
 ### A sample Jupyter Lab notebook that you can try out.
 [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron). Instructions on how to download that child repository (notebook along with data) is given.
 
-You shall find a new folder, BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron, in your Jupyter Lab directory once you successfully downloaded that repository.
+You shall find a new folder, *BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron*, in your Jupyter Lab directory once you successfully downloaded that repository.
 
 ## End of this chapter: Step02_Jupyter_lab.
