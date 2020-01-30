@@ -110,15 +110,18 @@ conda create -n BMEN4460 -c anaconda python=3.7
 <br>
 
 ```
+conda init
 conda activate [environment name]
 ```
 
 Example:
 ```
+conda init
 conda activate BMEN4460
 ```
 
-**If you encounter trouble in this step, you may need to run "conda init", then close and reopen your SSH Terminal. Remember to execute "sudo su" again if you used the Deep Learning VM quick creation.**
+**You may very likely need to close and reopen your SSH Terminal after this step. Remember to execute "sudo su" (if you used the Deep Learning VM quick creation) and "conda activate [environment name]" again.**
+
 
 </details>
 
