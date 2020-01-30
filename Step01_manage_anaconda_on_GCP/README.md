@@ -214,6 +214,13 @@ conda install -c pytorch torchvision pytorch
 conda install -c simpleitk simpleitk
 conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn scikit-image
 ```
+
+Also you may want to install the jupyter kernel, which will be introduced in the next chapter.
+```
+python -m ipykernel install --user --name BMEN4460 --display-name "Python3.7 BMEN4460"
+```    
+
+
 </details>
 
 ## End of this chapter: Step01_manage_anaconda_on_GCP.
