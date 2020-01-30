@@ -74,8 +74,9 @@ or alternatively, exit out the VM SSH Terminal (by closing the web browser tag h
 ```
 conda update --prefix /home/[username]/anaconda3 -c anaconda anaconda
 ```
-If you used "Compute Engine" > "Marketplace" > "Deep Learning VM" to build your VM, though, you should use
+If you used "Compute Engine" > "Marketplace" > "Deep Learning VM" to build your VM, though, you should change the anaconda location accordingly. Also, since it is installed in **/opt/** you will need super user authority to modify this environment.
 ```
+sudo su
 conda update --prefix /opt/anaconda3 -c anaconda anaconda
 ```
 
