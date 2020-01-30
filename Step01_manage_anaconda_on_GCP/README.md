@@ -174,10 +174,12 @@ pip install git+[git_url]
 
 Example:
 ```
-
+git clone https://github.com/jonbarron/robust_loss_pytorch
+cd robust_loss_pytorch/
+pip install -e .[dev]
 ```
 
-You can refer to the specific GitHub package when you really come across this case.
+You can refer to the specific GitHub package when you really come across this case. Note that whichever folder you are currently in when you type the following git clone command, the repository will be downloaded to that folder.
 
 Note that is different from downloading a repository from GitHub, which is much easier:
 ```
@@ -185,7 +187,7 @@ git clone [GitHub repository]
 ```
 Example:
 ```
-git clone https://
+git clone https://github.com/LeeJunHyun/Image_Segmentation
 ```
 
 </details>
