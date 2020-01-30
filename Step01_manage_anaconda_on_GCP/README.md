@@ -187,7 +187,7 @@ git clone [GitHub repository]
 ```
 Example:
 ```
-git clone https://github.com/LeeJunHyun/Image_Segmentation
+git clone 
 ```
 
 </details>
