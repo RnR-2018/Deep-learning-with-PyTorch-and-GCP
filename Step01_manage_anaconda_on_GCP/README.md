@@ -5,6 +5,9 @@ Nanyan "Rosalie" Zhu and Chen "Raphael" Liu.
 If you used the "Compute Engine" > "Marketplace" > "Deep Learning VM" pre-packaged method (introduced in the previous chapter) to create your VM, you should have anaconda and jupyter installed already. **In this case, your anaconda is installed at /opt/anaconda3/**. You can skip the installation steps and only look at how to utilize them (specifically step 5 to 10).
 
 **Before doing anything else, if you used this method to create your VM, you should execute the following line in the GCP VM SSH Terminal to grant you super user authority, because your anaconda is installed in a protected directory.**
+```
+sudo su
+```
 
 ## Overview
 This is written for installing and setting up anaconda on GCP, but can be applied on other devices (i.e., your own Mac or Linux computer) with little to not modification as well. Windows users might have more hussles as the commands are quite different. The following instruction assumes a Linux (Ubuntu/Debian/etc) operating system (as how you should have configured your GCP VM instance).
