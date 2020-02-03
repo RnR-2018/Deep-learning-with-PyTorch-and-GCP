@@ -27,14 +27,14 @@ This repository is still in progress. We will add one new post per week. Please 
 - (Video)[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/playlist?list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG).
 - (Video)[Introduction - Deep Learning and Neural Networks with Python and Pytorch](https://www.youtube.com/watch?v=BzcBsTou0C0&feature=youtu.be).
 
-### Free Online Courses
+## Free Online Courses
 - [IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)
 - [Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
 
-### Other useful GitHubs
+## Other useful GitHubs
 - [The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
 - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
 
 
-### Papers.
+## Papers.
 - [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
