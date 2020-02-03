@@ -3,11 +3,11 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
 ## Overview
-This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.</br>
+This tutorial is designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.
 
 This repository is still in progress. We will add one new post per week. Please help us improve this repository by leaving your comments or problems you encountered in the "Issues" section.
 
-<img src="/Images/issues_button.png" alt="GCP_console" width="300px" height="60px">
+![](/Images/issues_button.png)
 
 ## Sections
 - Step 00: [Set up Google Cloud Platform (GCP)](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step00_set_up_GCP).
@@ -27,13 +27,13 @@ This repository is still in progress. We will add one new post per week. Please 
 - (Video)[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/playlist?list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG).
 - (Video)[Introduction - Deep Learning and Neural Networks with Python and Pytorch](https://www.youtube.com/watch?v=BzcBsTou0C0&feature=youtu.be).
 
-- Free Online Open Courses</br>
-[IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)</br>
-[Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
+## Free Online Open Courses
+- [IBM course](https://courses.edx.org/courses/course-v1:IBM+DL0110EN+3T2019/course/)
+- [Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
 
-- Other useful githubs</br>
-[The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)</br>
-[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
+## Other useful githubs
+- [The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
+- [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
 
 
 ## Papers.
