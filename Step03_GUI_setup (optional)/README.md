@@ -98,10 +98,10 @@ There might be other ways to set up a graphical user interface on GCP, but what 
     ```
     
     - **Instance Name** The virtual machine instance name. (In our case it is "bmen4460")
-    <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
+        <img src="/Step03_GUI_setup (optional)/images/find_instance_name_and_zone.png" alt="GCP_console" width="1000px" height="80px">
     
     - **Project ID** Click on "My First Project" and check the ID. (In our case it is "gentle-nuance-238411")
-    <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="200px">
+        <img src="/Step03_GUI_setup (optional)/images/find_project_name.png" alt="GCP_console" width="600px" height="200px">
     
     **Now you are done with the modifications on the side of the GCP VM (the Server).**
 
