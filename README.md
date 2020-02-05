@@ -34,6 +34,7 @@ This repository is still in progress. We will add one new post per week. Please 
 ### Other useful GitHubs
 - [The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
 - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
+- [pytorch examples](https://github.com/pytorch/examples)
 
 ### Papers.
 - [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
