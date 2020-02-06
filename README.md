@@ -21,7 +21,7 @@ This repository is still in progress. We will add one new post per week. Please 
 
 ### Additional resources.
 1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Quite cool. There are a lot of things that we never heard of.
-2. [Udacity Online Course](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229). This is not free, and not relevant to the course BMEN4460 at all. It is just a course we looked into personally. We are not paid or anything to advertise this.
+2. [Udacity Online Course](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229). This is not free, and not relevant to the course BMEN4460 at all. It is just a course we looked into personally. We are not paid or anything to advertise this. It's just a very friendly course if you are new to deep learning.
 
 ### Useful links (to be organized).
 - [Biomedical Image Analysis](https://medium.com/@iradche/biomedical-image-analysis-d06024b8c122).
