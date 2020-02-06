@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="YM6UPJCHd_cUCB0Egnrb7ob8496elmZZrEUpacNzdtQ" />
+
 # Deep Learning with PyTorch and Google Cloud Platform
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
