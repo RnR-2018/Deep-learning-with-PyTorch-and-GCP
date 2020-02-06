@@ -223,6 +223,7 @@ git clone https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with
 <br>
 
 ```
+conda activate BMEN4460
 conda install -c pytorch torchvision pytorch
 conda install -c simpleitk simpleitk
 conda install -c anaconda matplotlib numpy jupyterlab jupyter scikit-learn scikit-image
