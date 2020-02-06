@@ -127,7 +127,20 @@ conda activate BMEN4460
 </details>
 
 <details>
-<summary>7. Install Packages.</summary>
+<summary>7. Grant you the write permission over the anaconda directory.</summary>
+<br>
+
+```
+cd /opt/anaconda3/env/ # If you installed anaconda in another directory the permission problem is not likely an issue for you.
+ls -ll # You should see that you don't have the write permission.
+sudo chmod 777 -R ./* # Grants read, write, execute permission to all users.
+ls -ll # Now you should have all three permissions.
+```
+
+</details>
+
+<details>
+<summary>8. Install Packages.</summary>
 <br>
 
 ```
@@ -164,7 +177,7 @@ pip install [packagename]
 </details>
 
 <details>
-<summary>8. Install Packages (continued).</summary>
+<summary>9. Install Packages (continued).</summary>
 <br>
 
 Besides these popular methods, in case you want to install a non-anaconda package that is not included in either anaconda or conda-forge, the best shot you have to safely install it is by googling **"anaconda install [this non-anaconda package]"**, and find the offical answer given by anaconda cloud.
@@ -174,7 +187,7 @@ For instance, if you want to install **"dtw"**, doing so will redirect you to **
 </details>
 
 <details>
-<summary>9. Download a package from GitHub.</summary>
+<summary>10. Download a package from GitHub.</summary>
 <br>
 
 To download a package (not a repository) from github, you can use following command:
@@ -206,7 +219,7 @@ git clone https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with
 </details>
 
 <details>
-<summary>10. Recommended packages for BMEN4460.</summary>
+<summary>11. Recommended packages for BMEN4460.</summary>
 <br>
 
 ```
