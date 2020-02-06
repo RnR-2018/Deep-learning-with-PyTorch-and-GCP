@@ -15,7 +15,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - Step 02: [Set up Jupyter Lab](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step02_Jupyter_lab).
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
-## Children Repositories.
+## BMEN4460 supplementary notebooks.
 1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron), introduced in Step 02.
 2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
 
