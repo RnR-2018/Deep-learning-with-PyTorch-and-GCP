@@ -17,6 +17,7 @@ This repository is still in progress. We will add one new post per week. Please 
 
 ## Children Repositories.
 1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron), introduced in Step 02.
+2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
 
 ### Additional resources.
 1. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Quite cool. There are a lot of things that we never heard of.
