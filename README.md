@@ -39,3 +39,8 @@ This repository is still in progress. We will add one new post per week. Please 
 
 ### Papers.
 - [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
+- [Imbalance Problems in Object Detection: A Review](https://arxiv.org/abs/1909.00169)
+- [A Review of Visual Trackers and Analysis of its Application to Mobile Robot](https://arxiv.org/abs/1910.09761)
+- [Deep Semantic Segmentation of Natural and Medical Images: A Review](https://arxiv.org/abs/1910.07655)
+- [A Deep Journey into Super-resolution: A Survey](https://arxiv.org/pdf/1904.07523.pdf)
+
