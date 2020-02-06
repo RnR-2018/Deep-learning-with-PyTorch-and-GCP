@@ -211,8 +211,9 @@ git clone [GitHub repository]
 ```
 Example (we recommend creating a "Projects" folder and cloning this repo there):
 ```
-mkdir Projects
-cd Projects
+mkdir BMEN4460 # This is only necessary if you have not done this yet
+mkdir BMEN4460/perceptron # This is only necessary if you have not done this yet
+cd BMEN4460/perceptron
 git clone https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron
 ```
 
