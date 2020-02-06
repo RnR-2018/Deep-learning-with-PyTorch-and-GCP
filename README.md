@@ -3,6 +3,8 @@
   Description: This tutorial is originally designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.
  Author: RnR-2018
   -->
+  
+<meta name="google-site-verification" content="YM6UPJCHd_cUCB0Egnrb7ob8496elmZZrEUpacNzdtQ" />
 
 # Deep Learning with PyTorch and Google Cloud Platform
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
