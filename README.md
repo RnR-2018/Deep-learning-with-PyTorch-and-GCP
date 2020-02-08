@@ -8,7 +8,7 @@
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
 ## Overview
-This tutorial is originally designed for the course BMEN4460 instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.
+This tutorial is originally designed for the course BMEN4460 Deep Learning in Biomedical Applications instructed by Dr. Andrew Laine and Dr. Jia Guo starting from the Spring 2020 semester at Columbia University. Since we are a medical imaging group, this repository will mainly focus on applications in medical imaging.
 
 This repository is still in progress. We will add one new post per week. Please help us improve this repository by leaving your comments or problems you encountered in the "Issues" section.
 
