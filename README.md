@@ -34,6 +34,7 @@ This repository is still in progress. We will add one new post per week. Please 
   - Vanishing/exploding gradient
   - Optimizers
 - CNN
+- TensorBoard Visualization
 - Transfer Learning
 - RNN
 - Autoencoders
