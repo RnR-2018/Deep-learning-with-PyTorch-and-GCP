@@ -21,7 +21,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
 ## Tutorials
-(Outline is listed. When we finish each content, you can click into the link directly.)
+(Outline is listed. Whenever a content is complete, it will become clickable.)
 - History and background
 - Feedforward and backpropagation
 - PyTorch basics 
