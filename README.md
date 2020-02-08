@@ -34,7 +34,10 @@ This repository is still in progress. We will add one new post per week. Please 
   - Vanishing/exploding gradient
   - Optimizers
 - CNN
+- Transfer Learning
 - RNN
+- Autoencoders
+- Generative Advsersarial Networks
 
 
 ## BMEN4460 supplementary notebooks.
