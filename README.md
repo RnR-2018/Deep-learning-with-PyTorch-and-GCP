@@ -34,7 +34,9 @@ This repository is still in progress. We will add one new post per week. Please 
   - Vanishing/exploding gradient
   - Optimizers
 - CNN
-- TensorBoard Visualization
+- Visualization
+  - TensorBoard
+  - hook function and CAM visualization
 - Transfer Learning
 - RNN
 - Autoencoders
