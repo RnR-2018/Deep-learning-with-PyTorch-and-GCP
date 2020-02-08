@@ -31,7 +31,7 @@ This repository is still in progress. We will add one new post per week. Please 
   - Dropout
   - Max Norm
 - Optimization
-  - Vanishing gradient
+  - Vanishing/exploding gradient
   - Optimizers
 - CNN
 - RNN
