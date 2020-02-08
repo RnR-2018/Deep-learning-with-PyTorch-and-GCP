@@ -4,7 +4,7 @@
  Author: RnR-2018
   -->
 
-# Deep Learning with PyTorch and Google Cloud Platform
+# Deep Learning in Biomedical Applications with PyTorch and Google Cloud Platform
 Nanyan "Rosalie" Zhu and Chen "Raphael" Liu, Columbia University
 
 ## Overview
