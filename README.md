@@ -31,8 +31,8 @@ This repository is still in progress. We will add one new post per week. Please 
   - Dropout
   - Max Norm
 - Optimization
-  - Vanishing/exploding gradient
   - Optimizers
+  - Vanishing/exploding gradient
 - CNN
 - Visualization
   - TensorBoard
