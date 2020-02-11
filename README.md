@@ -29,7 +29,7 @@ This repository is still in progress. We will add one new post per week. Please 
 ## Tutorials
 (Outline is listed. Whenever a content is complete, it will become clickable.)
 - [History and background](https://www.notion.so/rosalieraphael/History-and-background-5e914410df9a4fc68c147bf7d442a738)
-- Feedforward and backpropagation
+- [Feedforward and backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
 - PyTorch basics 
 - Loss functions and Regularization
   - loss functions
