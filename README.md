@@ -65,7 +65,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - [Udacity deep learning course](https://classroom.udacity.com/courses/ud188) ([related github](https://github.com/udacity/deep-learning-v2-pytorch)) (This is a part of the expensive Udacity course we mentioned before.)
 
 ### Other useful GitHubs
-- [Deep learning for medical applications](https://github.com/albarqouni/Deep-Learning-for-Medical-Applications)
+- [Deep learning for medical applications (papers)](https://github.com/albarqouni/Deep-Learning-for-Medical-Applications)
 - [Medical imaging related project tutorials](https://github.com/mdai/ml-lessons)
 - [The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
 - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
