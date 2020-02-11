@@ -46,6 +46,7 @@ This repository is still in progress. We will add one new post per week. Please 
 ## BMEN4460 supplementary notebooks.
 1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron).
 2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
+3. [Brain tumor segmentation](https://github.com/RnR-2018/BMEN4460-NB3-brain_tumor_segmentation).
 
 ### Additional resources.
 1. [Python Basics](https://www.dropbox.com/s/t4anle32op2qn8k/dlforcv-python.ipynb.zip?dl=0). This material comes from another course called Deep Learning for Computer Vision at Columbia University.
