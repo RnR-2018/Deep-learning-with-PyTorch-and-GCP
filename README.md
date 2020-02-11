@@ -40,6 +40,7 @@ This repository is still in progress. We will add one new post per week. Please 
   - Optimizers
   - Vanishing/exploding gradient
 - CNN
+  - [Convolution kernel basics](https://medium.com/apache-mxnet/multi-channel-convolutions-explained-with-ms-excel-9bbf8eb77108)
 - Visualization
   - TensorBoard
   - hook function and CAM visualization
