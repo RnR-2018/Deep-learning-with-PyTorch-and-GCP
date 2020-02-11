@@ -20,6 +20,12 @@ This repository is still in progress. We will add one new post per week. Please 
 - Step 02: [Set up Jupyter Lab](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step02_Jupyter_lab).
 - Step 03 (optional): [Set up a graphical user interface (GUI) on GCP](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step03_GUI_setup%20(optional)).
 
+## BMEN4460 supplementary notebooks.
+1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron).
+2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
+3. [Brain tumor segmentation](https://github.com/RnR-2018/BMEN4460-NB3-brain_tumor_segmentation).
+
+
 ## Tutorials
 (Outline is listed. Whenever a content is complete, it will become clickable.)
 - [History and background](https://www.notion.so/rosalieraphael/History-and-background-5e914410df9a4fc68c147bf7d442a738)
@@ -42,11 +48,6 @@ This repository is still in progress. We will add one new post per week. Please 
 - Autoencoders
 - Generative Advsersarial Networks
 
-
-## BMEN4460 supplementary notebooks.
-1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron).
-2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
-3. [Brain tumor segmentation](https://github.com/RnR-2018/BMEN4460-NB3-brain_tumor_segmentation).
 
 ### Additional resources.
 1. [Python Basics](https://www.dropbox.com/s/t4anle32op2qn8k/dlforcv-python.ipynb.zip?dl=0). This material comes from another course called Deep Learning for Computer Vision at Columbia University.
