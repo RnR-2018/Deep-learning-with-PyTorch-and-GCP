@@ -59,7 +59,7 @@ This repository is still in progress. We will add one new post per week. Please 
 
 
 ### Additional resources.
-1. [Python Basics](https://www.dropbox.com/s/t4anle32op2qn8k/dlforcv-python.ipynb.zip?dl=0). This material comes from another course called Deep Learning for Computer Vision at Columbia University. **Please note that we strongly recommend not to use the 'pip' install ation mentioned in that tutorial, but instead use the 'anaconda' installation we introduced in the**
+1. [Python Basics](https://www.dropbox.com/s/t4anle32op2qn8k/dlforcv-python.ipynb.zip?dl=0). This material comes from another course called Deep Learning for Computer Vision at Columbia University. **Please note that we strongly recommend not to use the 'pip' install ation mentioned in that tutorial, but instead use the 'anaconda' installation we introduced [here].**
 2. [Jupyter Notebook Tricks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/). Quite cool. There are a lot of things that we never heard of.
 3. [Udacity Online Course](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229). This is not free, and not relevant to the course BMEN4460 at all. It is just a course we looked into personally. We are not paid or anything to advertise this. It's just a very friendly course if you are new to deep learning.
 
