@@ -34,12 +34,14 @@ This repository is still in progress. We will add one new post per week. Please 
   - [Backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
 - PyTorch basics 
 - Loss functions and Regularization
+  - [Gradient decent](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+  - [Why local minima close to global minima in large Neural Networks](http://proceedings.mlr.press/v70/nguyen17a/nguyen17a-supp.pdf)
   - loss functions
   - Batch Normalization (BN)
   - Dropout
   - Max Norm
 - Optimization
-  - Optimizers
+  - [Optimizers](https://algorithmia.com/blog/introduction-to-optimizers)
   - Vanishing/exploding gradient
 - CNN
   - [Convolution kernel basics](https://medium.com/apache-mxnet/multi-channel-convolutions-explained-with-ms-excel-9bbf8eb77108)
