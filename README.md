@@ -24,6 +24,7 @@ This repository is still in progress. We will add one new post per week. Please 
 1. [Simple cell segmentation with a single layered perceptron](https://github.com/RnR-2018/BMEN4460-NB1-simple_cell_segmentation_with_a_single_layered_perceptron).
 2. [Image classification on MNIST data](https://github.com/RnR-2018/BMEN4460-NB2-image_classification_on_MNIST_data).
 3. [Brain tumor segmentation](https://github.com/RnR-2018/BMEN4460-NB3-brain_tumor_segmentation).
+4. [GAN_faking_MNIST_images](https://github.com/RnR-2018/RnR-2018-BMEN4460-NB3-GAN_faking_MNIST_images)
 
 
 ## Tutorials
