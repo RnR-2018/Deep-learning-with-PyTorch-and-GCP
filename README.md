@@ -38,7 +38,7 @@ This repository is still in progress. We will add one new post per week. Please 
   - [Gradient decent](https://www.youtube.com/watch?v=IHZwWFHWa-w)
   - [Why local minima close to global minima in large Neural Networks](http://proceedings.mlr.press/v70/nguyen17a/nguyen17a-supp.pdf)
   - loss functions
-  - Batch Normalization (BN)
+  - [Batch Normalization (BN)](https://machinelearningmastery.com/batch-normalization-for-training-of-deep-neural-networks/)
   - Dropout
   - Max Norm
 - Optimization
