@@ -33,7 +33,6 @@ This repository is still in progress. We will add one new post per week. Please 
 - [History and background](https://www.notion.so/rosalieraphael/History-and-background-5e914410df9a4fc68c147bf7d442a738)
 - Feedforward and backpropagation
   - [Backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
-- PyTorch basics 
 - Loss functions and Regularization
   - [Gradient decent](https://www.youtube.com/watch?v=IHZwWFHWa-w)
   - [Why local minima close to global minima in large Neural Networks](http://proceedings.mlr.press/v70/nguyen17a/nguyen17a-supp.pdf)
