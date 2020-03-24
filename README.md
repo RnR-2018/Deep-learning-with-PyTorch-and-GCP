@@ -47,7 +47,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - CNN
   - [Convolution kernel basics](https://medium.com/apache-mxnet/multi-channel-convolutions-explained-with-ms-excel-9bbf8eb77108)
   - [Receptive field](https://syncedreview.com/2017/05/11/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks/)
-  - Object detection
+  - [Object detection](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
   - Segmentation
     - [Semantic Segmentation](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)
   - Classification
