@@ -49,6 +49,7 @@ This repository is still in progress. We will add one new post per week. Please 
   - [Receptive field](https://syncedreview.com/2017/05/11/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks/)
   - Object detection
   - Segmentation
+    - [Semantic Segmentation](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)
   - Classification
 - Visualization
   - TensorBoard
