@@ -80,6 +80,7 @@ This repository is still in progress. We will add one new post per week. Please 
 - [The incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch)
 - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
 - [pytorch examples](https://github.com/pytorch/examples)
+- [albumentations-data-augmentation](https://github.com/albumentations-team/albumentations#spatial-level-transforms)
 
 ### Papers.
 - [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937).
