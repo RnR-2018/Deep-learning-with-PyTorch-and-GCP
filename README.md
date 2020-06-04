@@ -89,3 +89,5 @@ This repository is still in progress. We will add one new post per week. Please 
 - [Deep Semantic Segmentation of Natural and Medical Images: A Review](https://arxiv.org/abs/1910.07655)
 - [A Deep Journey into Super-resolution: A Survey](https://arxiv.org/pdf/1904.07523.pdf)
 
+### Datasets
+- [A summary of medical imaging datasets](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/blob/master/Images/MedicalImagingDatasets.pdf)
